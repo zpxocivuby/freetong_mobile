@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group_item" >
+
+    <itaf.mobile.app.ui.widget.AsyncImageView
+        android:id="@+id/aiv_mfa_merchant_ico"
+        style="@style/aiv_64" />
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:layout_toRightOf="@+id/aiv_mfa_merchant_ico"
+        android:padding="0dp" >
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_mfa_company_name"
+                style="@style/tv_item_left"
+                android:layout_width="match_parent"
+                android:text="名称" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="类型" />
+
+            <TextView
+                android:id="@+id/tv_mfa_merchant_category"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="距离" />
+
+            <TextView
+                android:id="@+id/tv_mfa_service_coverage"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="地址" />
+
+            <TextView
+                android:id="@+id/tv_mfa_company_address"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <RatingBar
+                android:id="@+id/rb_mfa_evaluation"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:isIndicator="true"
+                android:numStars="5" >
+            </RatingBar>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_icd_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_im_chat_info" />
+
+        <Button
+            android:id="@+id/tv_icd_add_chat_member"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_add" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_icd_chat_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_round_white"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:text="@string/str_im_check_note"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_more_arrow_draw" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/lv_icd_chat_peoples"
+        style="@style/lv_common" />
+
+</LinearLayout>

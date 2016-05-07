@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_sl_page"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_sl_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_sl_top_title" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <EditText
+            android:id="@+id/et_sl_username"
+            style="@style/et_bg_input"
+            android:focusable="true"
+            android:hint="@string/str_sl_username"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <EditText
+            android:id="@+id/et_sl_password"
+            style="@style/et_bg_input"
+            android:focusable="true"
+            android:hint="@string/str_sl_password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_sl_remember_password"
+            style="@style/cb_checkbox"
+            android:text="@string/str_sl_remember_password" />
+
+        <CheckBox
+            android:id="@+id/cb_sl_auto_login"
+            style="@style/cb_checkbox"
+            android:layout_marginLeft="20dp"
+            android:text="@string/str_sl_autologin" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <TextView
+            android:id="@+id/tv_sl_register"
+            style="@style/tv_link"
+            android:text="@string/str_sl_register" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <Button
+            android:id="@+id/btn_sl_login"
+            style="@style/btn_bg_red"
+            android:layout_width="match_parent"
+            android:text="@string/str_sl_login" />
+    </LinearLayout>
+
+</LinearLayout>

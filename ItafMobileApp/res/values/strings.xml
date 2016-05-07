@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- pull_to_refresh -->
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+
+    <!-- ImageView -->
+    <string name="str_iv_desc">图片</string>
+    <!-- common -->
+    <string name="str_common_app_title">移动身边</string>
+    <string name="str_common_menu_settings">设置</string>
+    <string name="str_common_file_browser">文件浏览</string>
+    <string name="str_common_attachment">附件</string>
+    <string name="str_common_close">关闭</string>
+    <string name="str_common_back">返回</string>
+    <string name="str_common_save">保存</string>
+    <string name="str_common_reapply">重新申请</string>
+    <string name="str_common_submit">提交</string>
+    <string name="str_common_select_dist">选择配送商</string>
+    <string name="str_common_edit">编辑</string>
+    <string name="str_common_im">聊聊</string>
+    <string name="str_common_delete">删除</string>
+    <string name="str_common_cancle">取消</string>
+    <string name="str_common_query">查询</string>
+    <string name="str_common_confirm">确定</string>
+    <string name="str_common_complete">完成</string>
+    <string name="str_common_send">发送</string>
+    <string name="str_common_search">搜索</string>
+    <string name="str_common_refresh">刷新</string>
+    <string name="str_common_add">添加</string>
+    <string name="str_common_upload">上传</string>
+    <string name="str_common_download">下载</string>
+    <string name="str_common_hint">输入查询内容</string>
+    <string name="str_common_product">商品</string>
+    <string name="str_common_merchant">商家</string>
+    <string name="str_common_product_category">商品分类</string>
+    <string name="str_common_merchant_category">商家分类</string>
+
+    <!-- AndroidManifest.xml -->
+    <string name="str_am_app_name">移动身边</string>
+    <string name="str_am_logo_title">Mobile Side</string>
+
+    <!-- sys_register.xml -->
+    <string name="str_sr_top_title">用户注册</string>
+    <string name="str_sr_agree">我同意</string>
+    <string name="str_sr_protocol">XXXX协议</string>
+    <string name="str_sr_register">注册</string>
+    <string name="str_sr_username">输入用户名</string>
+    <string name="str_sr_password">输入密码</string>
+    <string name="str_sr_confirm_password">输入确认密码</string>
+
+    <!-- sys_protocol.xml -->
+    <string name="str_sp_top_title">使用协议</string>
+
+    <!-- sys_login.xml -->
+    <string name="str_sl_top_title">用户登录</string>
+    <string name="str_sl_username">用户名</string>
+    <string name="str_sl_password">密    码</string>
+    <string name="str_sl_remember_password">记住密码</string>
+    <string name="str_sl_autologin">自动登录 </string>
+    <string name="str_sl_login">登 录</string>
+    <string name="str_sl_register">注册账号</string>
+
+    <!-- main.xml -->
+    <string name="str_main_home">首页</string>
+    <string name="str_main_side">身边</string>
+    <string name="str_main_im">IM</string>
+    <string name="str_main_cart">购物车</string>
+    <string name="str_main_account">我的账户</string>
+
+    <!-- menu_home.xml -->
+    <string name="str_mh_top_title">首页</string>
+
+    <!-- menu_side.xml -->
+    <string name="str_ms_top_title">身边</string>
+    <string name="str_ms_product_category">商品分类</string>
+
+    <!-- menu_side_adapter.xml -->
+    <string name="str_msa_price">单价</string>
+    <string name="str_msa_chat">聊聊</string>
+    <string name="str_msa_buy">购买</string>
+    <string name="str_msa_add_cart">加入购物车</string>
+
+    <!-- menu_cart.xml -->
+    <string name="str_mc_top_title">购物车</string>
+    <string name="str_mc_favorite">收藏</string>
+    <string name="str_mc_balance">去结算</string>
+    <string name="str_mc_price_total">商品总价(不含运费)</string>
+
+    <!-- menu_im.xml -->
+    <string name="str_mi_im">即时通讯</string>
+    <string name="str_im_friends">好友</string>
+    <string name="str_im_friends_list">好友列表</string>
+    <string name="str_im_send_msg">发送消息</string>
+
+    <!-- order_list.xml -->
+    <string name="str_ol_top_title">全部订单</string>
+
+    <!-- merchant_list.xml -->
+    <string name="str_ml_category">商家分类</string>
+
+    <!-- merchant_map.xml -->
+    <string name="str_mm_category">商家分类</string>
+
+    <!-- merchant_detail.xml -->
+    <string name="str_md_top_title">商家详情</string>
+    <string name="str_md_category">商家分类</string>
+    <string name="str_md_credit">商家信用</string>
+    <string name="str_md_dist_range">配送范围</string>
+    <string name="str_md_address">商家地址</string>
+    <string name="str_md_mobile">商家电话</string>
+    <string name="str_md_hot_product">热卖商品</string>
+    <string name="str_md_favorite">收藏</string>
+    <string name="str_md_chat">聊聊</string>
+
+    <!-- merchant_favorite.xml -->
+    <string name="str_mf_top_title">商家收藏</string>
+
+    <!-- merchant_stock_and_invoice.xml -->
+    <string name="str_msai_top_title">备货及配送</string>
+    <string name="str_msai_stock_order">备货单</string>
+
+    <!-- merchant_invoice.xml -->
+    <string name="str_mi_top_title">发货</string>
+
+    <!-- product_list.xml -->
+    <string name="str_pl_category">商品分类</string>
+
+    <!-- product_map.xml -->
+    <string name="str_pm_category">商品分类</string>
+
+    <!-- product_create.xml -->
+    <string name="str_pc_top_title">商品添加</string>
+    <string name="str_pc_product_name">商品名称</string>
+    <string name="str_pc_product_category">商品分类</string>
+    <string name="str_pc_stock_num">库存数量</string>
+    <string name="str_pc_price">商品价格</string>
+    <string name="str_pc_on_sheft">是否上架</string>
+    <string name="str_pc_description">商品描述</string>
+
+    <!-- product_edit.xml -->
+    <string name="str_pe_top_title">修改商品</string>
+    <string name="str_pe_product_name">商品名称</string>
+    <string name="str_pe_product_category">商品分类</string>
+    <string name="str_pe_stock_num">库存数量</string>
+    <string name="str_pe_price">商品价格</string>
+    <string name="str_pe_description">商品描述</string>
+
+    <!-- product_detail.xml -->
+    <string name="str_pd_top_title">商品详情</string>
+    <string name="str_pd_price">商品价格</string>
+    <string name="str_pd_stock_num">剩余数量</string>
+    <string name="str_pd_evaluation">商品评价</string>
+    <string name="str_pd_buy">购买</string>
+    <string name="str_pd_favorite">收藏</string>
+    <string name="str_pd_add_cart">加入购物车</string>
+
+    <!-- product_merchant_detail.xml -->
+    <string name="str_pmd_top_title">商品详情</string>
+    <string name="str_pmd_price">商品价格</string>
+    <string name="str_pmd_stock_num">库存数量</string>
+
+    <!-- product_favorite.xml -->
+    <string name="str_pf_top_title">商品收藏</string>
+
+    <!-- product_manage.xml -->
+    <string name="str_pm_top_title">商品管理</string>
+    <string name="str_pm_product_category">商品分类</string>
+
+    <!-- dist_collection_detail.xml -->
+    <string name="str_dcd_top_title">收款</string>
+    <string name="str_dcd_receivable_amount">应收金额</string>
+    <string name="str_dcd_actual_amount">实收金额</string>
+
+    <!-- dist_collection_list.xml -->
+    <string name="str_dcl_top_title">收款</string>
+    <string name="str_dcl_receivable_amount">应收金额</string>
+    <string name="str_dcl_actual_amount">实收金额</string>
+
+    <!-- distribution.xml -->
+    <string name="str_dist_top_title">配送</string>
+
+    <!-- dist_statement.xml -->
+    <string name="str_db_top_title">配送结算</string>
+
+    <!-- dist_statement_detail.xml -->
+    <string name="str_dbd_top_title">结算详情</string>
+
+    <!-- dist_company_list.xml -->
+    <string name="str_dcl_order">距离排序</string>
+
+    <!-- dist_company_map.xml -->
+    <string name="str_dcm_order">距离排序</string>
+
+    <!-- realname_certificate.xml -->
+    <string name="str_fc_top_title">实名认证</string>
+
+    <!-- user_delivery_address.xml -->
+    <string name="str_uda_top_title">发货地址</string>
+
+    <!-- user_delivery_address_create.xml -->
+    <string name="str_udac_top_title">添加发货地址</string>
+    <string name="str_udac_contact_person">收件人</string>
+    <string name="str_udac_contact_no">手机号码</string>
+    <string name="str_udac_address_tag">省市区</string>
+    <string name="str_udac_address">详细地址</string>
+    <string name="str_udac_postcode">邮政编码</string>
+
+    <!-- user_delivery_address_edit.xml -->
+    <string name="str_udae_top_title">添加发货地址</string>
+    <string name="str_udae_contact_person">收件人</string>
+    <string name="str_udae_contact_no">手机号码</string>
+    <string name="str_udae_address_tag">省市区</string>
+    <string name="str_udae_address">详细地址</string>
+    <string name="str_udae_postcode">邮政编码</string>
+
+    <!-- user_delivery_address_detail.xml -->
+    <string name="str_udad_top_title">发货地址详情</string>
+    <string name="str_udad_contact_person">收件人</string>
+    <string name="str_udad_contact_no">手机号码</string>
+    <string name="str_udad_address_tag">省市区</string>
+    <string name="str_udad_address">详细地址</string>
+    <string name="str_udad_postcode">邮政编码</string>
+
+    <!-- user_delivery_address_adapter.xml -->
+    <string name="str_udaa_contact_person">收件人</string>
+    <string name="str_udaa_contact_no">手机号码</string>
+    <string name="str_udaa_address_tag">省市区</string>
+    <string name="str_udaa_address">详细地址</string>
+    <string name="str_udaa_postcode">邮政编码</string>
+
+    <!-- user_address.xml -->
+    <string name="str_ua_top_title">收货地址</string>
+
+    <!-- user_address_create.xml -->
+    <string name="str_uac_top_title">添加收货地址</string>
+    <string name="str_uac_contact_person">收件人</string>
+    <string name="str_uac_contact_no">手机号码</string>
+    <string name="str_uac_address_tag">省市区</string>
+    <string name="str_uac_address">详细地址</string>
+    <string name="str_uac_postcode">邮政编码</string>
+
+    <!-- user_address_edit.xml -->
+    <string name="str_uae_top_title">添加收货地址</string>
+    <string name="str_uae_contact_person">收件人</string>
+    <string name="str_uae_contact_no">手机号码</string>
+    <string name="str_uae_address_tag">省市区</string>
+    <string name="str_uae_address">详细地址</string>
+    <string name="str_uae_postcode">邮政编码</string>
+
+    <!-- user_address_detail.xml -->
+    <string name="str_uad_top_title">收货地址详情</string>
+    <string name="str_uad_contact_person">收件人</string>
+    <string name="str_uad_contact_no">手机号码</string>
+    <string name="str_uad_address_tag">省市区</string>
+    <string name="str_uad_address">详细地址</string>
+    <string name="str_uad_postcode">邮政编码</string>
+
+    <!-- user_address_adapter.xml -->
+    <string name="str_uaa_contact_person">收件人</string>
+    <string name="str_uaa_contact_no">手机号码</string>
+    <string name="str_uaa_address_tag">省市区</string>
+    <string name="str_uaa_address">详细地址</string>
+    <string name="str_uaa_postcode">邮政编码</string>
+
+    <!-- user_address_select_adapter.xml -->
+    <string name="str_uasa_contact_person">收件人</string>
+    <string name="str_uasa_contact_no">手机号码</string>
+    <string name="str_uasa_address_tag">省市区</string>
+    <string name="str_uasa_address">详细地址</string>
+    <string name="str_uasa_postcode">邮政编码</string>
+
+    <!-- search_product_or_merchant.xml -->
+    <string name="str_spom_top_title">搜索</string>
+
+    <!-- menu_account.xml -->
+    <string name="str_ma_my">我的账号</string>
+    <string name="str_ma_username">用户账号</string>
+    <string name="str_ma_balance">余额:</string>
+    <string name="str_ma_wait_pay">待付款</string>
+    <string name="str_ma_wait_send_product">待发货</string>
+    <string name="str_ma_wait_receive_product">待收货</string>
+    <string name="str_ma_wait_evaluation">待评价</string>
+    <string name="str_ma_wait_refund">退款</string>
+    <string name="str_ma_all_order">全部订单</string>
+    <string name="str_ma_collect_product">商品收藏</string>
+    <string name="str_ma_collect_merchant">商家收藏</string>
+    <string name="str_ma_realname_certificate">实名认证</string>
+    <string name="str_ma_service_apply">服务申请</string>
+    <string name="str_ma_merchant_product_manage">商品管理</string>
+    <string name="str_ma_merchant_stock_and_invoice">备货及发货</string>
+    <string name="str_ma_merchant_process_refund_order">处理退款单</string>
+    <string name="str_ma_merchant_dist_statement">配送结算</string>
+    <string name="str_ma_dist_order">配送</string>
+    <string name="str_ma_dist_collection">收款</string>
+    <string name="str_ma_dist_statement_summary">结算信息</string>
+    <string name="str_ma_user_address">收货地址</string>
+    <string name="str_ma_user_delivery_address">发货地址</string>
+    <string name="str_ma_about">关于</string>
+
+    <!-- IM -->
+    <string name="str_im_chat_info">聊天信息</string>
+    <string name="str_im_check_note">查看聊天记录</string>
+    <string name="str_im_check_history">查看聊天记录</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_owe_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_owe_top_title"
+            style="@style/app_top_tv_title"
+            android:text="待评价列表" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshExpandableListView
+        android:id="@+id/elv_owe_content"
+        style="@style/elv_common" />
+
+</LinearLayout>

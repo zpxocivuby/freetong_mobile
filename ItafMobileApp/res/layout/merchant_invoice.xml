@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_mi_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_mi_top_title" />
+
+        <Button
+            android:id="@+id/btn_mi_invoice"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <TextView
+            android:id="@+id/tv_mi_select_dist_company"
+            style="@style/tv_btn_image"
+            android:text="选择配送商" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/elv_mi_content"
+        style="@style/elv_common" />
+
+</LinearLayout>

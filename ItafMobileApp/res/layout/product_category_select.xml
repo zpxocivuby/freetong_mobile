@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_pcs_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="选择商品分类" />
+
+        <Button
+            android:id="@+id/btn_pcs_select"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/linear_box"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:id="@+id/tv_pcsa_back_select"
+            style="@style/tv_btn_image_fillet"
+            android:text="返回" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_pcs_content"
+        style="@style/lv_common" />
+
+</LinearLayout>

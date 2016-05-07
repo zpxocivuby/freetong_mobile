@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group_item" >
+
+    <LinearLayout
+        android:id="@+id/linear_mcagi_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_mcagi_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/str_iv_desc"
+            android:src="@drawable/btn_delect_draw"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_mcagi_select"
+            style="@style/cb_checkbox" />
+
+        <itaf.mobile.app.ui.widget.AsyncImageView
+            android:id="@+id/iv_mcagi_product_ico"
+            style="@style/aiv_96" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:layout_toRightOf="@+id/linear_mcagi_iv"
+        android:padding="0dp" >
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_mcagi_product_name"
+                style="@style/tv_item_left"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="单价" />
+
+            <TextView
+                android:id="@+id/tv_mcagi_price"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="数量" />
+
+            <LinearLayout style="@style/linear_padding1" >
+
+                <ImageView
+                    android:id="@+id/iv_mcagi_subtract_buy_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/str_iv_desc"
+                    android:src="@drawable/btn_subtract_sign_draw" />
+
+                <EditText
+                    android:id="@+id/et_mcagi_buy_num"
+                    style="@style/et_bg_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:focusable="false"
+                    android:inputType="number" />
+
+                <ImageView
+                    android:id="@+id/iv_mcagi_add_buy_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/str_iv_desc"
+                    android:src="@drawable/btn_add_sign_draw" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="小计" />
+
+            <TextView
+                android:id="@+id/tv_mcagi_price_total"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

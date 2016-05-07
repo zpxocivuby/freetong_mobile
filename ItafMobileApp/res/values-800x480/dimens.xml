@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- dimen text size -->
+
+    <dimen name="txtsize_10">10dp</dimen>
+    <dimen name="txtsize_12">12dp</dimen>
+    <dimen name="txtsize_14">14dp</dimen>
+    <dimen name="txtsize_16">16dp</dimen>
+    <dimen name="txtsize_18">18dp</dimen>
+    <dimen name="txtsize_20">20dp</dimen>
+
+    <!-- View size -->
+    <dimen name="size_loading_small">21dp</dimen>
+    <dimen name="layout_width_time">75dp</dimen>
+    <dimen name="txtsize_time">13dp</dimen>
+
+</resources>

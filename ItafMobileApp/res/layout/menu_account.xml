@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_ma_my" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/rela_content"
+        android:background="@drawable/bg_tab_bar" >
+
+        <TextView
+            android:id="@+id/tv_ma_username"
+            style="@style/tv_link"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/btn_msj_draw"
+            android:drawablePadding="2dp" />
+
+        <TextView
+            style="@style/tv_bold"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/tv_ma_balance"
+            android:text="@string/str_ma_balance" />
+
+        <TextView
+            android:id="@+id/tv_ma_balance"
+            style="@style/tv_bold"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tab_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <RadioButton
+            android:id="@+id/rb_ma_wait_pay"
+            style="@style/rb_menu_btn"
+            android:drawableTop="@drawable/btp_pending_payment"
+            android:text="@string/str_ma_wait_pay" />
+
+        <RadioButton
+            android:id="@+id/rb_ma_wait_delivery"
+            style="@style/rb_menu_btn"
+            android:drawableTop="@drawable/btp_deliver_goods"
+            android:text="@string/str_ma_wait_send_product" />
+
+        <RadioButton
+            android:id="@+id/rb_ma_wait_receipt"
+            style="@style/rb_menu_btn"
+            android:drawableTop="@drawable/btp_goods_receipt"
+            android:text="@string/str_ma_wait_receive_product" />
+
+        <RadioButton
+            android:id="@+id/rb_ma_wait_evaluation"
+            style="@style/rb_menu_btn"
+            android:drawableTop="@drawable/btp_evaluation"
+            android:text="@string/str_ma_wait_evaluation" />
+
+        <RadioButton
+            android:id="@+id/rb_ma_wait_refund"
+            style="@style/rb_menu_btn"
+            android:drawableTop="@drawable/btp_refund"
+            android:text="@string/str_ma_wait_refund" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_totalline2" >
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_ma_layout"
+            style="@style/linear_common" >
+
+            <TextView
+                android:id="@+id/tv_ma_all_order"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_all_order" />
+
+            <TextView
+                android:id="@+id/tv_ma_product_favorite"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_collect_product" />
+
+            <TextView
+                android:id="@+id/tv_ma_merchant_favorite"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_collect_merchant" />
+
+            <TextView
+                android:id="@+id/tv_ma_realname_certificate"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_realname_certificate" />
+
+            <TextView
+                android:id="@+id/tv_ma_service_apply"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_service_apply" />
+
+            <TextView
+                android:id="@+id/tv_ma_merchant_product_manage"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_merchant_product_manage" />
+
+            <TextView
+                android:id="@+id/tv_ma_merchant_stock_and_invoice"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_merchant_stock_and_invoice" />
+
+            <TextView
+                android:id="@+id/tv_ma_merchant_process_refund_order"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_merchant_process_refund_order" />
+
+            <TextView
+                android:id="@+id/tv_ma_merchant_dist_statement_item"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_merchant_dist_statement" />
+
+            <TextView
+                android:id="@+id/tv_ma_dist_order"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_dist_order" />
+
+            <TextView
+                android:id="@+id/tv_ma_dist_collection"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_dist_collection" />
+
+            <TextView
+                android:id="@+id/tv_ma_dist_statement_summary"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_dist_statement_summary" />
+
+            <TextView
+                android:id="@+id/tv_ma_user_address"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_user_address" />
+
+            <TextView
+                android:id="@+id/tv_ma_user_delivery_address"
+                style="@style/tv_btn_image"
+                android:text="@string/str_ma_user_delivery_address" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

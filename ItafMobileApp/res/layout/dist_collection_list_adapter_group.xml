@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group" >
+
+    <RelativeLayout
+        android:id="@+id/rela_dclag_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_dclag_chat"
+            style="@style/btn_chat" />
+
+        <Button
+            android:id="@+id/btn_dclag_collection"
+            style="@style/btn_bg_red"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="收款" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rela_dclag_center"
+        style="@style/linear_left_right"
+        android:layout_below="@+id/rela_dclag_top" >
+
+        <TextView
+            android:id="@+id/tv_dclag_contact_person"
+            style="@style/tv_left" />
+
+        <TextView
+            android:id="@+id/tv_dclag_contact_no"
+            style="@style/tv_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rela_dclag_center" >
+
+        <TextView
+            android:id="@+id/tv_dclag_dist_address"
+            style="@style/tv_match" />
+    </LinearLayout>
+
+</RelativeLayout>

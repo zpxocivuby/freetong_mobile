@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_pd_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_pd_top_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rela_pd_bottom" >
+
+            <LinearLayout style="@style/linear_padding8" >
+
+                <itaf.mobile.app.ui.widget.AsyncImageView
+                    android:id="@+id/aiv_pd_product_ico"
+                    style="@style/aiv_96" />
+
+                <LinearLayout style="@style/linear_common" >
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="店家名称" />
+
+                        <TextView
+                            android:id="@+id/tv_pd_merchant_name"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="商品名称" />
+
+                        <TextView
+                            android:id="@+id/tv_pd_product_name"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="@string/str_pd_price" />
+
+                        <TextView
+                            android:id="@+id/tv_pd_price"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="@string/str_pd_stock_num" />
+
+                        <TextView
+                            android:id="@+id/tv_pd_stock_num"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="商品描述" />
+
+                        <TextView
+                            android:id="@+id/tv_pd_product_desc"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/rela_pd_bottom"
+            style="@style/rela_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/detail_background" >
+
+            <TextView
+                android:id="@+id/tv_pd_favorite"
+                style="@style/tv_link"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/btp_collect"
+                android:text="@string/str_pd_favorite" />
+
+            <TextView
+                android:id="@+id/tv_pd_buy"
+                style="@style/tv_link"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_pd_buy" />
+
+            <TextView
+                android:id="@+id/tv_pd_add_cart"
+                style="@style/tv_link"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_pd_add_cart" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

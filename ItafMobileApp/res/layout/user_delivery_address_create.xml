@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_udac_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_udac_top_title" />
+
+        <Button
+            android:id="@+id/btn_udac_save"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="@string/str_udac_contact_person" />
+
+            <EditText
+                android:id="@+id/et_udac_contact_person"
+                style="@style/et_bg_input"
+                android:focusable="true"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="@string/str_udac_contact_no" />
+
+            <EditText
+                android:id="@+id/et_udac_contact_no"
+                style="@style/et_bg_input"
+                android:focusable="true"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="@string/str_udac_address" />
+
+            <EditText
+                android:id="@+id/et_udac_address"
+                style="@style/et_bg_textarea"
+                android:focusable="true"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="@string/str_udac_postcode" />
+
+            <EditText
+                android:id="@+id/et_udac_postcode"
+                style="@style/et_bg_input"
+                android:focusable="true"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_spr_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_spr_searck_key"
+            style="@style/app_top_tv_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tr_white"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/tv_spr_product_category"
+            style="@style/tv_category"
+            android:text="@string/str_common_product_category" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/plv_spr_content"
+        style="@style/lv_common" />
+
+</LinearLayout>

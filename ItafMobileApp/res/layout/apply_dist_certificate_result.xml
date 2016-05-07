@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_adcr_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="服务申请失败" />
+
+        <Button
+            android:id="@+id/btn_adcr_reapply"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_reapply" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_adcr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_common" >
+
+            <LinearLayout style="@style/linear_common" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="审批日志" />
+
+                <TextView
+                    android:id="@+id/tv_adcr_approval_info"
+                    style="@style/tv_tab_content" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_common" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="详细信息" />
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="公司名称" />
+
+                    <TextView
+                        android:id="@+id/tv_adcr_company_name"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="服务类型" />
+
+                    <TextView
+                        android:id="@+id/tv_adcr_service_type"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="服务范围" />
+
+                    <TextView
+                        android:id="@+id/tv_adcr_service_coverage"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="公司地址" />
+
+                    <TextView
+                        android:id="@+id/tv_adcr_company_address"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="配送资质" />
+
+                    <TextView
+                        android:id="@+id/tv_adcr_attach_name"
+                        style="@style/tv_link" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

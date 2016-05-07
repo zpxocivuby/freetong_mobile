@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_smr_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_smr_searck_key"
+            style="@style/app_top_tv_title"
+            android:text="查找商家结果" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tr_white"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/tv_smr_merchant_category"
+            style="@style/tv_category"
+            android:text="@string/str_common_merchant_category" />
+
+        <ImageView
+            android:id="@+id/iv_smr_select_map"
+            style="@style/iv_select_map"
+            android:layout_toLeftOf="@+id/iv_smr_select_list"
+            android:contentDescription="@string/str_iv_desc" />
+
+        <ImageView
+            android:id="@+id/iv_smr_select_list"
+            style="@style/iv_select_list"
+            android:contentDescription="@string/str_iv_desc" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/plv_smr_content"
+        style="@style/lv_common" />
+
+</LinearLayout>

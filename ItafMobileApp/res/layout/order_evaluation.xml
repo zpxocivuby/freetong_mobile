@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_oe_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="商品评价" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_padding8" >
+
+            <ListView
+                android:id="@+id/lv_oe_content"
+                style="@style/lv_common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="NestedScrolling" />
+
+            <LinearLayout style="@style/linear_box" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_background"
+                    android:text="商家评价" />
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="物流服务" />
+
+                    <RatingBar
+                        android:id="@+id/rb_oe_logistics_score"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="1" >
+                    </RatingBar>
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="描述相符" />
+
+                    <RatingBar
+                        android:id="@+id/rb_oe_description_score"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="1" >
+                    </RatingBar>
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="服务态度" />
+
+                    <RatingBar
+                        android:id="@+id/rb_oe_attitude_score"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="1" >
+                    </RatingBar>
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="发货速度" />
+
+                    <RatingBar
+                        android:id="@+id/rb_oe_delivery_score"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:rating="0.0"
+                        android:stepSize="1" >
+                    </RatingBar>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_padding8" >
+
+                <Button
+                    android:id="@+id/btn_oe_rating"
+                    style="@style/btn_bg_red"
+                    android:layout_width="match_parent"
+                    android:text="评价" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

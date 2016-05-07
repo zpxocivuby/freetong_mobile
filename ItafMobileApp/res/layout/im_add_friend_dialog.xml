@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_iafd_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="聊天室邀请消息" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_iafd_add_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btn_iafd_accept"
+            style="@style/btn_bg_black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="接受" />
+
+        <Button
+            android:id="@+id/btn_iafd_refuse"
+            style="@style/btn_bg_black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="拒绝" />
+    </LinearLayout>
+
+</LinearLayout>

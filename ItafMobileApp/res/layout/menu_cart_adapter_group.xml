@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group" >
+
+    <TextView
+        android:id="@+id/tv_mcag_merchant_name"
+        style="@style/tv_left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_mcag_chat"
+        style="@style/btn_chat"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:text="商家客服" />
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_od_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="订单详情" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:padding="0dp" >
+
+        <TextView
+            style="@style/tv_tab_title"
+            android:text="订单信息" />
+
+        <LinearLayout style="@style/linear_padding8" >
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="订单编号" />
+
+                <TextView
+                    android:id="@+id/tv_od_serial_no"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="创建时间" />
+
+                <TextView
+                    android:id="@+id/tv_od_create_date"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="发货时间" />
+
+                <TextView
+                    android:id="@+id/tv_od_invoice_date"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="配送时间" />
+
+                <TextView
+                    android:id="@+id/tv_od_dist_date"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="配送类型" />
+
+                <TextView
+                    android:id="@+id/tv_od_dist_type"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="支付方式" />
+
+                <TextView
+                    android:id="@+id/tv_od_pay_type"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="订单总额" />
+
+                <TextView
+                    android:id="@+id/tv_od_pay_amount"
+                    style="@style/tv_right" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:padding="0dp" >
+
+        <TextView
+            style="@style/tv_tab_title"
+            android:text="商品信息" />
+
+        <ListView
+            android:id="@+id/lv_od_content"
+            style="@style/lv_common"
+            tools:ignore="NestedScrolling" />
+    </LinearLayout>
+
+</LinearLayout>

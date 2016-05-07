@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- dimen text size -->
+    <dimen name="txtsize_10">7dp</dimen>
+    <dimen name="txtsize_12">8dp</dimen>
+    <dimen name="txtsize_14">9dp</dimen>
+    <dimen name="txtsize_16">11dp</dimen>
+    <dimen name="txtsize_18">12dp</dimen>
+    <dimen name="txtsize_20">13dp</dimen>
+
+    <!-- View size -->
+    <dimen name="size_loading_small">14dp</dimen>
+    <dimen name="layout_width_time">75dp</dimen>
+    <dimen name="txtsize_time">13dp</dimen>
+    
+    <!-- pulltorefresh -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+</resources>

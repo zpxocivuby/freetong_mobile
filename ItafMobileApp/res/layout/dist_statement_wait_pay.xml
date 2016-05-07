@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_dswp_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="未结清账单列表" />
+
+        <Button
+            android:id="@+id/btn_dswp_chat"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_im" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/detail_background"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="9" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小计金额" />
+
+            <TextView
+                android:id="@+id/et_dswp_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_dcl_order" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_arc_sex_male"
+                style="@style/rb_radio_left"
+                android:text="男" />
+
+            <RadioButton
+                android:id="@+id/rb_arc_sex_female"
+                style="@style/rb_radio_right"
+                android:text="女" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshExpandableListView
+        android:id="@+id/elv_dswp_content"
+        style="@style/elv_common" />
+
+</LinearLayout>

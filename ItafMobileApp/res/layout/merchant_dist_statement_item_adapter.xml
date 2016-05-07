@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group" >
+
+    <CheckBox
+        android:id="@+id/cb_mdsia_select"
+        style="@style/cb_checkbox"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:layout_toRightOf="@+id/cb_mdsia_select" >
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                android:id="@+id/tv_mdsia_dist_company_name"
+                style="@style/tv_left"
+                android:text="开心配送小屋" />
+
+            <TextView
+                android:id="@+id/tv_mdsia_statement_time"
+                style="@style/tv_right"
+                android:text="创建时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="商家收款金额" />
+
+            <TextView
+                android:id="@+id/tv_mdsia_merchant_receivable_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="商家应收金额" />
+
+            <TextView
+                android:id="@+id/tv_mdsia_merchant_received_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_owref_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="退款列表" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tr_white"
+        android:padding="8dp" >
+
+        <Button
+            android:id="@+id/btn_owref_ayyly"
+            style="@style/btn_tab_left"
+            android:layout_alignParentLeft="true"
+            android:text="退款中" />
+
+        <Button
+            android:id="@+id/btn_owref_result"
+            style="@style/btn_tab_right"
+            android:layout_toRightOf="@+id/btn_owref_ayyly"
+            android:text="已退款" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/plv_owref_content"
+        style="@style/lv_common" />
+
+</LinearLayout>

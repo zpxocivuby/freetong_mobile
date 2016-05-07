@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <itaf.mobile.app.ui.widget.ClipImageView
+        android:id="@+id/src_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <itaf.mobile.app.ui.widget.ClipView
+        android:id="@+id/clipview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        style="@style/linear_common"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_scp_clip"
+            style="@style/btn_bg_red"
+            android:text="确定" />
+    </LinearLayout>
+
+</RelativeLayout>

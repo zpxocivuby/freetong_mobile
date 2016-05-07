@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <ImageView
+        android:id="@+id/iv_app_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/str_am_app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_welcome" />
+
+</LinearLayout>

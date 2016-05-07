@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_arcr_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="认证失败" />
+
+        <Button
+            android:id="@+id/btn_arcr_reapply"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_reapply" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_arcr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_common" >
+
+            <LinearLayout style="@style/linear_common" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="审批日志" />
+
+                <TextView
+                    android:id="@+id/tv_arcr_approval_info"
+                    style="@style/tv_tab_content" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_common" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="详细信息" />
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="真实姓名" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_relname"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="性别" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_sex"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="出生日期" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_birthday"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="手机号码" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_mobile"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="证件类型" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_id_type"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="证件号码" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_id_no"
+                        style="@style/tv_match" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/linear_left_right" >
+
+                    <TextView
+                        style="@style/tv_left"
+                        android:text="证件附件" />
+
+                    <TextView
+                        android:id="@+id/tv_arcr_attach_name"
+                        style="@style/tv_link" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

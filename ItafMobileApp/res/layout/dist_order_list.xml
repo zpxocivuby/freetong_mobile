@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_dol_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="配送列表" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tr_white"
+        android:padding="8dp" >
+
+        <Button
+            android:id="@+id/btn_dol_distance"
+            style="@style/btn_tab_left"
+            android:layout_alignParentLeft="true"
+            android:text="距离" />
+
+        <Button
+            android:id="@+id/btn_dol_credit"
+            style="@style/btn_tab_right"
+            android:layout_toRightOf="@+id/btn_dol_distance"
+            android:text="信用度" />
+
+        <ImageView
+            android:id="@+id/iv_dol_select_map"
+            style="@style/iv_select_map"
+            android:layout_toLeftOf="@+id/iv_dol_select_list"
+            android:contentDescription="@string/str_iv_desc" />
+
+        <ImageView
+            android:id="@+id/iv_dol_select_list"
+            style="@style/iv_select_list"
+            android:contentDescription="@string/str_iv_desc"
+            android:focusable="false" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshExpandableListView
+        android:id="@+id/elv_dol_content"
+        style="@style/elv_common" />
+
+</LinearLayout>
