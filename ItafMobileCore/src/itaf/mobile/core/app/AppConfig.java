@@ -13,7 +13,7 @@ public class AppConfig {
 	// WS相关配置
 	// public static String wsServerUrl =
 	// "http://192.168.0.112:8080/itaf-web-side";
-	public static String wsServerUrl = "http://192.168.0.205:8080/itaf-web-side";
+	public static String wsServerUrl = "http://192.168.244.1:8080/itaf-web-side";
 	// 系统文件上传
 	public static String uploadFileUrl = wsServerUrl
 			+ "/wsServlet/UploadFileServlet";
@@ -33,7 +33,7 @@ public class AppConfig {
 	public static String downloadProductUrl = wsServerUrl
 			+ "/wsServlet/DownloadProductServlet";
 	// IM相关配置
-	public static String imServerIp = "192.168.0.202";
+	public static String imServerIp = "192.168.244.1";
 	public static String imServerDomainName = "win-icnimh4vny3";
 	public static String imServerName = "conference." + imServerDomainName;
 	public static int imServerPort = 5223;
