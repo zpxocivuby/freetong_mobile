@@ -34,7 +34,7 @@ public class AppConfig {
 			+ "/wsServlet/DownloadProductServlet";
 	// IM相关配置
 	public static String imServerIp = "192.168.244.1";
-	public static String imServerDomainName = "win-icnimh4vny3";
+	public static String imServerDomainName = "DESKTOP-EJE8BHL";
 	public static String imServerName = "conference." + imServerDomainName;
 	public static int imServerPort = 5223;
 
