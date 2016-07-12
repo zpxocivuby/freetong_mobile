@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c1cbee2368bffc76e291ba6b8f07b15423450eaf">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\ksoap2-android-assembly-3.0.0-jar-with-dependencies_ca2333e942f1290589230681dd9b75b88be77b07\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\android_api_1.1_forsdk.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c90739d2d9b23beac4d2af4bdc2ed4f6ba48f9ce">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\android_api_1.1_forsdk_97b7c95bb049012af71ec46463e504637bbe81e6\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\httpmime-4.2.5.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="31d46bd72b49bba477f21150911971c2ef5b73b9">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\httpmime-4.2.5_cc83a8bb557247c1ec7f768ca411c8593bd4c5a5\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileDto\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="67cc369445cf5f3f5f19fd8b31e17738c638500e">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_0822baf122ac3f55aa2f9380b5c2307a0178277d\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="aa95b8af8d73a46b97069359662433061f13bdcb">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_68caca912594c3a9fab7d48fb0b0f54b9f6ec1b2\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="64a52bf9b50a0bb3e2fee5fdd717d1aa403e7571">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_4109cffe41b577ee35e22c011f75f102d97d7a81\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_b642f3cf0cec72f1d2f6b218cd0580ea28eab0dd\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="36b812ff442466b4281140816803ae669f25bd6f">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7014ae55060532a06b1f4fcec8a7ae170ae5c50a\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\asmack-android-8-4.0.5.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="10652e33193d76000cc87c793a7977117ebc5993">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\asmack-android-8-4.0.5_3fe5a81038e300c916e54b4a8d590e89dd6e66f5\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileCore\unspecified\jars\libs\galaxy_mini.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ee6ba672795cffe80c70ff064d8818e7896791b1">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\galaxy_mini_4fa342985bfdb27cc89cde6f0d44b194c50a7c94\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8a8e210b5d7b92860dd8b54ea9e0fe86e595611c">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2579cd2c555433a23a428b3b8434155cdf90b397\classes.dex" />
+    </item>
+    <item
+        jar="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\exploded-aar\freetong_mobile\ItafMobileDs\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="56aaee44b50f33fd81c4afd1545d072ff6b719a8">
+        <dex dex="D:\github\freetong\freetong_mobile\ItafMobileApp\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_fd1d9e3868f712b2741bd6c2ca82734a7a0edb93\classes.dex" />
+    </item>
+
+</items>

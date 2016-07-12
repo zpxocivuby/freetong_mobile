@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ItafMobileApp/ItafMobileApp.iml" filepath="$PROJECT_DIR$/ItafMobileApp/ItafMobileApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ItafMobileCore/ItafMobileCore.iml" filepath="$PROJECT_DIR$/ItafMobileCore/ItafMobileCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ItafMobileDs/ItafMobileDs.iml" filepath="$PROJECT_DIR$/ItafMobileDs/ItafMobileDs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ItafMobileDto/ItafMobileDto.iml" filepath="$PROJECT_DIR$/ItafMobileDto/ItafMobileDto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ItafMobileTest/ItafMobileTest.iml" filepath="$PROJECT_DIR$/ItafMobileTest/ItafMobileTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freetong_mobile.iml" filepath="$PROJECT_DIR$/freetong_mobile.iml" />
+    </modules>
+  </component>
+</project>

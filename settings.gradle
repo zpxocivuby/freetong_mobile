@@ -1,0 +1,6 @@
+include ':ItafMobileTest'
+include ':imagepickerModule'
+include ':ItafMobileDs'
+include ':ItafMobileDto'
+include ':ItafMobileApp'
+include ':ItafMobileCore'
