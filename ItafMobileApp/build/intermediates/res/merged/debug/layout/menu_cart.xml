@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_layout" >
+
+    <RelativeLayout
+        android:id="@+id/rela_mc_top"
+        style="@style/app_top_rela_bg" >
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_mc_top_title" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshExpandableListView
+        android:id="@+id/elv_mc_content"
+        style="@style/elv_common"
+        android:layout_above="@+id/rela_mc_bottom"
+        android:layout_below="@+id/rela_mc_top" />
+
+    <RelativeLayout
+        android:id="@+id/rela_mc_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_tr_white"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:id="@+id/linear_mc_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_totalline"
+            android:orientation="horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/linear_mc_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_mc_line" >
+
+            <TextView
+                style="@style/tv_link"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/str_mc_price_total" />
+
+            <TextView
+                android:id="@+id/tv_mc_price_total"
+                style="@style/tv_link"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_mc_price" >
+
+            <TextView
+                android:id="@+id/tv_mc_delete"
+                style="@style/tv_link"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/btn_delect_draw"
+                android:text="@string/str_common_delete" />
+
+            <Button
+                android:id="@+id/btn_mc_balance"
+                style="@style/btn_bg_red_fillet"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:text="@string/str_mc_balance" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

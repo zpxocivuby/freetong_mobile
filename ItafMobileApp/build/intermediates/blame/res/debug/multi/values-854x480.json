@@ -1,0 +1,178 @@
+[
+    {
+        "outputFile": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\values-854x480\\values-854x480.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 48,
+                        "endOffset": 430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 49,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 49,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 41,
+                    "endOffset": 191
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 51,
+                        "endColumn": 41,
+                        "endOffset": 88
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 196,
+                    "endColumn": 41,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 94,
+                        "endColumn": 41,
+                        "endOffset": 131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endColumn": 41,
+                    "endOffset": 275
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 137,
+                        "endColumn": 41,
+                        "endOffset": 174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 280,
+                    "endColumn": 41,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 41,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 41,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 41,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 364,
+                    "endColumn": 41,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 266,
+                        "endColumn": 41,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 43,
+                    "endOffset": 445
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\values-854x480\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 43,
+                        "endOffset": 475
+                    }
+                }
+            }
+        ]
+    }
+]

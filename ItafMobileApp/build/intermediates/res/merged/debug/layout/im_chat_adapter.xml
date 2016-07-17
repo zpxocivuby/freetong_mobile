@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/detail_background"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/linear_piic_chat_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_piic_chat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@color/whiteGray"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_piic_chat_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_piic_chat_time"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_piic_friend_headurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/str_iv_desc"
+            android:src="@drawable/im_user_head_ico" />
+
+        <TextView
+            android:id="@+id/tv_piic_friend_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_piic_friend_headurl"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+
+        <TextView
+            android:id="@+id/tv_piic_friend_chat_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_piic_friend_nickname"
+            android:background="@drawable/im_from"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_piic_chat_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_piic_chat_friend"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_piic_chat_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/tv_piic_nickname"
+            android:background="@drawable/im_to"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+
+        <TextView
+            android:id="@+id/tv_piic_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/iv_piic_headurl"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtsize_16" />
+
+        <ImageView
+            android:id="@+id/iv_piic_headurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/str_iv_desc"
+            android:src="@drawable/im_user_head_ico" />
+    </RelativeLayout>
+
+</RelativeLayout>

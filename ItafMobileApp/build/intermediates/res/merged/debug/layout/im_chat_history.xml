@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_ich_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_im_check_history" />
+
+        <Button
+            android:id="@+id/btn_ich_clear_chat_history"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_delete" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/lv_ich_chat_history"
+        style="@style/lv_common" />
+
+</LinearLayout>

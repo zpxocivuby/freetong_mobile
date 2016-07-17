@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="itaf.mobile.app"
+    android:installLocation="auto"
+    android:versionCode="1000000174"
+    android:versionName="App_20140120.0556.31" >
+
+    <uses-sdk
+        android:maxSdkVersion="23"
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <!-- 允许访问振动设备 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 允许一个程序获取信息有关当前或最近运行的任务，一个缩略的任务状态，是否活动等等 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 允许程序打开网络sockets -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序访问Wi-Fi网络状态信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许应用写（非读）用户的外部存储器 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许程序读取用户日历数据 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <!-- 允许一个程序写入但不读取用户日历数据 -->
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <!-- 允许读取电话的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序访问有关的网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许一个程序访问精良位置(如GPS) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 允许程序改变Wi-Fi连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- BaiDu Map -->
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <!-- BaiDu Map -->
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- 允许访问在Accounts Service中的一个帐户列表 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 允许应用从管理器得到授权请求 -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- 允许程序去管理账户列表(在账户管理者中) -->
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <!-- 允许应用程序的验证账户扮演一个账户管理者 -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+
+    <!-- 允许一个程序访问CellID或WiFi来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 允许程序创建模拟位置用于测试 -->
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <!-- 允许使用PowerManager的 WakeLocks保持进程在休眠时从屏幕消失 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 允许程序读取用户GPS位置信息 -->
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <!-- 允许程序读取用户联系人数据 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 允许一个程序初始化一个电话拨号，不需通过拨号用户界面需要用户确认 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 允许程序读取短信息 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!-- 允许程序发送SMS短信 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 快捷方式信息需要从setting中读取 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="itaf.mobile.core.app.AppApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/str_am_app_name" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="7wwS3TTyVHIiWzydVHeOevQF" />
+
+        <activity
+            android:name="itaf.mobile.app.AppStart"
+            android:label="@string/str_am_logo_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyCertificate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyDistCertificate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyDistCertificateCheck"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyDistCertificateResult"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyRealnameCertificate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyRealnameCertificateCheck"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplyRealnameCertificateResult"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplySellingCertificate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplySellingCertificateCheck"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ApplySellingCertificateResult"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.AppMain"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistCollectionDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistCollectionList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantProcessRefundOrder"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantSelectDistList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantSelectDistMap"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistOrderList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistOrderMap"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistStatementPaid"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistStatement"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistStatementItem"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.DistTimeSelect"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MenuAccount"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MenuCart"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MenuHome"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MenuSide"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantDistStatement"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantDistStatementDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantDistStatementItem"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantFavorite"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantInvoice"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SearchMerchantResult"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantMap"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantStockOrder"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.MerchantStockAndInvoice"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderCreate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderEvaluation"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderAlipay"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderWaitDelivery"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderWaitEvaluation"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderWaitPay"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderWaitRefund"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.OrderWaitReceipt"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductCategorySelect"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductCreate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductEdit"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductFavorite"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SearchProductResult"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductManage"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductMap"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductMerchantDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.ProductOnShelf"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SearchProductOrMerchant"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysClipPhoto"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysPhotoPreview"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysAbout"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysFileBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysLogin"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysProtocol"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysRegister"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.SysSetting"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserAccountDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserDeliveryAddress"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserDeliveryAddressCreate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserDeliveryAddressDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserDeliveryAddressEdit"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserAddress"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserAddressCreate"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserAddressDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserAddressEdit"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.ui.UserAddressSelect"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.MenuIm"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImChatFriends"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImChatWindow"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImChatDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImChatHistory"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImChatRoomWindow"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImAddFriendDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="itaf.mobile.app.im.ui.ImAddChatRoomDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <service
+            android:name="itaf.mobile.app.services.TaskService"
+            android:permission="android.permission.ACCESS_NETWORK_STATE" >
+            <intent-filter>
+                <action android:name="itaf.mobile.app.services.TaskService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="itaf.mobile.app.services.NoticeService"
+            android:permission="android.permission.ACCESS_NETWORK_STATE" >
+            <intent-filter>
+                <action android:name="itaf.mobile.app.services.NoticeService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="itaf.mobile.app.services.AutoSyncService"
+            android:permission="android.permission.ACCESS_NETWORK_STATE" >
+            <intent-filter>
+                <action android:name="itaf.mobile.app.services.AutoSyncService" />
+            </intent-filter>
+        </service>
+        <!-- service for xmpp add by xiaoly -->
+        <service
+            android:name="itaf.mobile.app.services.FileListenerService"
+            android:permission="android.permission.ACCESS_NETWORK_STATE" >
+            <intent-filter>
+                <action android:name="itaf.mobile.app.services.FileListenerService" />
+            </intent-filter>
+        </service>
+        <!-- service for xmpp end -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name="itaf.mobile.ds.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="itaf.mobile.core.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="itaf.mobile.dto.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

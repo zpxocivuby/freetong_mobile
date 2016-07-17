@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#80C4F0</color>
+    <color name="bg_gray">#FFE3E3E7</color>
+    <color name="black">#000000</color>
+    <color name="blue">#436EEE</color>
+    <color name="checkbox_text">#2E2E2E</color>
+    <color name="detail_background">#ECECEA</color>
+    <color name="gray">#ff333333</color>
+    <color name="lightblue">#FF007AA2</color>
+    <color name="lightorange">#FFACBA00</color>
+    <color name="listitem_black">#FF000000</color>
+    <color name="listitem_transparent">#00000000</color>
+    <color name="menu_toobar_bg">#FFC9CACB</color>
+    <color name="orange">#FFE84E0E</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparent">#000000</color>
+    <color name="txt_gray">#FF575756</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteGray">#FFC9CACB</color>
+    <color name="yellow">#ff9933</color>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="layout_width_time">75dp</dimen>
+    <dimen name="size_loading_small">14dp</dimen>
+    <dimen name="txtsize_10">7dp</dimen>
+    <dimen name="txtsize_12">8dp</dimen>
+    <dimen name="txtsize_14">9dp</dimen>
+    <dimen name="txtsize_16">11dp</dimen>
+    <dimen name="txtsize_18">12dp</dimen>
+    <dimen name="txtsize_20">13dp</dimen>
+    <dimen name="txtsize_time">13dp</dimen>
+    <drawable name="drawable_black">#000000</drawable>
+    <drawable name="drawable_orange">#FFACBA00</drawable>
+    <drawable name="drawable_red">#FFFF0000</drawable>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="app_name">ItafMobileDto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="str_am_app_name">移动身边</string>
+    <string name="str_am_logo_title">Mobile Side</string>
+    <string name="str_common_add">添加</string>
+    <string name="str_common_app_title">移动身边</string>
+    <string name="str_common_attachment">附件</string>
+    <string name="str_common_back">返回</string>
+    <string name="str_common_cancle">取消</string>
+    <string name="str_common_close">关闭</string>
+    <string name="str_common_complete">完成</string>
+    <string name="str_common_confirm">确定</string>
+    <string name="str_common_delete">删除</string>
+    <string name="str_common_download">下载</string>
+    <string name="str_common_edit">编辑</string>
+    <string name="str_common_file_browser">文件浏览</string>
+    <string name="str_common_hint">输入查询内容</string>
+    <string name="str_common_im">聊聊</string>
+    <string name="str_common_menu_settings">设置</string>
+    <string name="str_common_merchant">商家</string>
+    <string name="str_common_merchant_category">商家分类</string>
+    <string name="str_common_product">商品</string>
+    <string name="str_common_product_category">商品分类</string>
+    <string name="str_common_query">查询</string>
+    <string name="str_common_reapply">重新申请</string>
+    <string name="str_common_refresh">刷新</string>
+    <string name="str_common_save">保存</string>
+    <string name="str_common_search">搜索</string>
+    <string name="str_common_select_dist">选择配送商</string>
+    <string name="str_common_send">发送</string>
+    <string name="str_common_submit">提交</string>
+    <string name="str_common_upload">上传</string>
+    <string name="str_db_top_title">配送结算</string>
+    <string name="str_dbd_top_title">结算详情</string>
+    <string name="str_dcd_actual_amount">实收金额</string>
+    <string name="str_dcd_receivable_amount">应收金额</string>
+    <string name="str_dcd_top_title">收款</string>
+    <string name="str_dcl_actual_amount">实收金额</string>
+    <string name="str_dcl_order">距离排序</string>
+    <string name="str_dcl_receivable_amount">应收金额</string>
+    <string name="str_dcl_top_title">收款</string>
+    <string name="str_dcm_order">距离排序</string>
+    <string name="str_dist_top_title">配送</string>
+    <string name="str_fc_top_title">实名认证</string>
+    <string name="str_im_chat_info">聊天信息</string>
+    <string name="str_im_check_history">查看聊天记录</string>
+    <string name="str_im_check_note">查看聊天记录</string>
+    <string name="str_im_friends">好友</string>
+    <string name="str_im_friends_list">好友列表</string>
+    <string name="str_im_send_msg">发送消息</string>
+    <string name="str_iv_desc">图片</string>
+    <string name="str_ma_about">关于</string>
+    <string name="str_ma_all_order">全部订单</string>
+    <string name="str_ma_balance">余额:</string>
+    <string name="str_ma_collect_merchant">商家收藏</string>
+    <string name="str_ma_collect_product">商品收藏</string>
+    <string name="str_ma_dist_collection">收款</string>
+    <string name="str_ma_dist_order">配送</string>
+    <string name="str_ma_dist_statement_summary">结算信息</string>
+    <string name="str_ma_merchant_dist_statement">配送结算</string>
+    <string name="str_ma_merchant_process_refund_order">处理退款单</string>
+    <string name="str_ma_merchant_product_manage">商品管理</string>
+    <string name="str_ma_merchant_stock_and_invoice">备货及发货</string>
+    <string name="str_ma_my">我的账号</string>
+    <string name="str_ma_realname_certificate">实名认证</string>
+    <string name="str_ma_service_apply">服务申请</string>
+    <string name="str_ma_user_address">收货地址</string>
+    <string name="str_ma_user_delivery_address">发货地址</string>
+    <string name="str_ma_username">用户账号</string>
+    <string name="str_ma_wait_evaluation">待评价</string>
+    <string name="str_ma_wait_pay">待付款</string>
+    <string name="str_ma_wait_receive_product">待收货</string>
+    <string name="str_ma_wait_refund">退款</string>
+    <string name="str_ma_wait_send_product">待发货</string>
+    <string name="str_main_account">我的账户</string>
+    <string name="str_main_cart">购物车</string>
+    <string name="str_main_home">首页</string>
+    <string name="str_main_im">IM</string>
+    <string name="str_main_side">身边</string>
+    <string name="str_mc_balance">去结算</string>
+    <string name="str_mc_favorite">收藏</string>
+    <string name="str_mc_price_total">商品总价(不含运费)</string>
+    <string name="str_mc_top_title">购物车</string>
+    <string name="str_md_address">商家地址</string>
+    <string name="str_md_category">商家分类</string>
+    <string name="str_md_chat">聊聊</string>
+    <string name="str_md_credit">商家信用</string>
+    <string name="str_md_dist_range">配送范围</string>
+    <string name="str_md_favorite">收藏</string>
+    <string name="str_md_hot_product">热卖商品</string>
+    <string name="str_md_mobile">商家电话</string>
+    <string name="str_md_top_title">商家详情</string>
+    <string name="str_mf_top_title">商家收藏</string>
+    <string name="str_mh_top_title">首页</string>
+    <string name="str_mi_im">即时通讯</string>
+    <string name="str_mi_top_title">发货</string>
+    <string name="str_ml_category">商家分类</string>
+    <string name="str_mm_category">商家分类</string>
+    <string name="str_ms_product_category">商品分类</string>
+    <string name="str_ms_top_title">身边</string>
+    <string name="str_msa_add_cart">加入购物车</string>
+    <string name="str_msa_buy">购买</string>
+    <string name="str_msa_chat">聊聊</string>
+    <string name="str_msa_price">单价</string>
+    <string name="str_msai_stock_order">备货单</string>
+    <string name="str_msai_top_title">备货及配送</string>
+    <string name="str_ol_top_title">全部订单</string>
+    <string name="str_pc_description">商品描述</string>
+    <string name="str_pc_on_sheft">是否上架</string>
+    <string name="str_pc_price">商品价格</string>
+    <string name="str_pc_product_category">商品分类</string>
+    <string name="str_pc_product_name">商品名称</string>
+    <string name="str_pc_stock_num">库存数量</string>
+    <string name="str_pc_top_title">商品添加</string>
+    <string name="str_pd_add_cart">加入购物车</string>
+    <string name="str_pd_buy">购买</string>
+    <string name="str_pd_evaluation">商品评价</string>
+    <string name="str_pd_favorite">收藏</string>
+    <string name="str_pd_price">商品价格</string>
+    <string name="str_pd_stock_num">剩余数量</string>
+    <string name="str_pd_top_title">商品详情</string>
+    <string name="str_pe_description">商品描述</string>
+    <string name="str_pe_price">商品价格</string>
+    <string name="str_pe_product_category">商品分类</string>
+    <string name="str_pe_product_name">商品名称</string>
+    <string name="str_pe_stock_num">库存数量</string>
+    <string name="str_pe_top_title">修改商品</string>
+    <string name="str_pf_top_title">商品收藏</string>
+    <string name="str_pl_category">商品分类</string>
+    <string name="str_pm_category">商品分类</string>
+    <string name="str_pm_product_category">商品分类</string>
+    <string name="str_pm_top_title">商品管理</string>
+    <string name="str_pmd_price">商品价格</string>
+    <string name="str_pmd_stock_num">库存数量</string>
+    <string name="str_pmd_top_title">商品详情</string>
+    <string name="str_sl_autologin">自动登录 </string>
+    <string name="str_sl_login">登 录</string>
+    <string name="str_sl_password">密    码</string>
+    <string name="str_sl_register">注册账号</string>
+    <string name="str_sl_remember_password">记住密码</string>
+    <string name="str_sl_top_title">用户登录</string>
+    <string name="str_sl_username">用户名</string>
+    <string name="str_sp_top_title">使用协议</string>
+    <string name="str_spom_top_title">搜索</string>
+    <string name="str_sr_agree">我同意</string>
+    <string name="str_sr_confirm_password">输入确认密码</string>
+    <string name="str_sr_password">输入密码</string>
+    <string name="str_sr_protocol">XXXX协议</string>
+    <string name="str_sr_register">注册</string>
+    <string name="str_sr_top_title">用户注册</string>
+    <string name="str_sr_username">输入用户名</string>
+    <string name="str_ua_top_title">收货地址</string>
+    <string name="str_uaa_address">详细地址</string>
+    <string name="str_uaa_address_tag">省市区</string>
+    <string name="str_uaa_contact_no">手机号码</string>
+    <string name="str_uaa_contact_person">收件人</string>
+    <string name="str_uaa_postcode">邮政编码</string>
+    <string name="str_uac_address">详细地址</string>
+    <string name="str_uac_address_tag">省市区</string>
+    <string name="str_uac_contact_no">手机号码</string>
+    <string name="str_uac_contact_person">收件人</string>
+    <string name="str_uac_postcode">邮政编码</string>
+    <string name="str_uac_top_title">添加收货地址</string>
+    <string name="str_uad_address">详细地址</string>
+    <string name="str_uad_address_tag">省市区</string>
+    <string name="str_uad_contact_no">手机号码</string>
+    <string name="str_uad_contact_person">收件人</string>
+    <string name="str_uad_postcode">邮政编码</string>
+    <string name="str_uad_top_title">收货地址详情</string>
+    <string name="str_uae_address">详细地址</string>
+    <string name="str_uae_address_tag">省市区</string>
+    <string name="str_uae_contact_no">手机号码</string>
+    <string name="str_uae_contact_person">收件人</string>
+    <string name="str_uae_postcode">邮政编码</string>
+    <string name="str_uae_top_title">添加收货地址</string>
+    <string name="str_uasa_address">详细地址</string>
+    <string name="str_uasa_address_tag">省市区</string>
+    <string name="str_uasa_contact_no">手机号码</string>
+    <string name="str_uasa_contact_person">收件人</string>
+    <string name="str_uasa_postcode">邮政编码</string>
+    <string name="str_uda_top_title">发货地址</string>
+    <string name="str_udaa_address">详细地址</string>
+    <string name="str_udaa_address_tag">省市区</string>
+    <string name="str_udaa_contact_no">手机号码</string>
+    <string name="str_udaa_contact_person">收件人</string>
+    <string name="str_udaa_postcode">邮政编码</string>
+    <string name="str_udac_address">详细地址</string>
+    <string name="str_udac_address_tag">省市区</string>
+    <string name="str_udac_contact_no">手机号码</string>
+    <string name="str_udac_contact_person">收件人</string>
+    <string name="str_udac_postcode">邮政编码</string>
+    <string name="str_udac_top_title">添加发货地址</string>
+    <string name="str_udad_address">详细地址</string>
+    <string name="str_udad_address_tag">省市区</string>
+    <string name="str_udad_contact_no">手机号码</string>
+    <string name="str_udad_contact_person">收件人</string>
+    <string name="str_udad_postcode">邮政编码</string>
+    <string name="str_udad_top_title">发货地址详情</string>
+    <string name="str_udae_address">详细地址</string>
+    <string name="str_udae_address_tag">省市区</string>
+    <string name="str_udae_contact_no">手机号码</string>
+    <string name="str_udae_contact_person">收件人</string>
+    <string name="str_udae_postcode">邮政编码</string>
+    <string name="str_udae_top_title">添加发货地址</string>
+    <string name="title_activity_main">MainActivity</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="aiv_64">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="aiv_96">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:contentDescription">@string/str_iv_desc</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="app_progress_dialog" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDuration">2000</item>
+        <item name="android:fullDark">@drawable/bg_round_black</item>
+        <item name="android:topDark">@drawable/bg_round_black</item>
+        <item name="android:centerDark">@drawable/bg_round_black</item>
+        <item name="android:bottomDark">@drawable/bg_round_black</item>
+        <item name="android:fullBright">@drawable/bg_round_black</item>
+        <item name="android:topBright">@drawable/bg_round_black</item>
+        <item name="android:centerBright">@drawable/bg_round_black</item>
+        <item name="android:bottomBright">@drawable/bg_round_black</item>
+        <item name="android:bottomMedium">@drawable/bg_round_black</item>
+        <item name="android:centerMedium">@drawable/bg_round_black</item>
+    </style>
+    <style name="app_progress_dialog_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/app_progress_dialog</item>
+        <item name="android:progressBarStyleSmall">@style/app_progress_dialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="app_top_btn_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btp_back_draw</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="app_top_btn_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/btn_bg_red_fillet_draw</item>
+        <item name="android:textSize">@dimen/txtsize_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="app_top_rela_bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/bg_top_hd</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="app_top_tv_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/txtsize_20</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="btn_bg_black" parent="@style/btn_common">
+        <item name="android:background">@drawable/btn_bg_black_draw</item>
+    </style>
+    <style name="btn_bg_red" parent="@style/btn_common">
+        <item name="android:background">@drawable/btn_bg_red_draw</item>
+    </style>
+    <style name="btn_bg_red_fillet" parent="@style/btn_common">
+        <item name="android:background">@drawable/btn_bg_red_fillet_draw</item>
+    </style>
+    <style name="btn_chat" parent="@style/btn_common">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:drawableLeft">@drawable/btn_chat_draw</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="btn_common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/txtsize_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="btn_tab_left" parent="@style/btn_common">
+        <item name="android:background">@drawable/tab_left_red_on</item>
+    </style>
+    <style name="btn_tab_right" parent="@style/btn_common">
+        <item name="android:background">@drawable/tab_right_red</item>
+    </style>
+    <style name="cb_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/cb_checkbox_draw</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="elv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:groupIndicator">@null</item>
+    </style>
+    <style name="et_bg_input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/whiteGray</item>
+    </style>
+    <style name="et_bg_search_input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/bg_search_input</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/whiteGray</item>
+    </style>
+    <style name="et_bg_textarea">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:minHeight">150dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="et_input_number">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/bg_tr_white_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/checkbox_text</item>
+    </style>
+    <style name="et_replay_msg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_round_white</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="iv_item_ico">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/im_user_head_ico_big</item>
+        <item name="android:contentDescription">@string/str_iv_desc</item>
+    </style>
+    <style name="iv_select_list">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/btn_list_draw</item>
+    </style>
+    <style name="iv_select_map">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/btn_map_draw</item>
+    </style>
+    <style name="iv_top_right_search">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/btp_search_red_draw</item>
+    </style>
+    <style name="linear_adapter_layout" parent="@style/linear_common">
+        <item name="android:background">@drawable/bg_round_white</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="linear_box" parent="@style/linear_common">
+        <item name="android:background">@drawable/bg_round_white</item>
+    </style>
+    <style name="linear_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="linear_layout" parent="@style/linear_common">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="linear_left_right" parent="@style/linear_common">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="linear_padding1" parent="@style/linear_left_right">
+        <item name="android:padding">1dp</item>
+    </style>
+    <style name="linear_padding8" parent="@style/linear_common">
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="lv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="rb_menu_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/menu_toobar_bg_draw</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+    </style>
+    <style name="rb_radio_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">@drawable/rb_radio_draw</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+    </style>
+    <style name="rb_radio_left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableRight">@drawable/rb_radio_draw</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:button">@null</item>
+        <item name="android:checked">true</item>
+    </style>
+    <style name="rb_radio_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableRight">@drawable/rb_radio_draw</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:button">@null</item>
+        <item name="android:checked">false</item>
+    </style>
+    <style name="rela_adapter_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_round_white</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="rela_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="rela_group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_gray_tit</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="rela_group_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_round_white</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="rela_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="rela_toobar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_tr_white</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="rg_group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="tv_bg_input" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tv_bg_select" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/bg_select</item>
+        <item name="android:textColor">@color/checkbox_text</item>
+    </style>
+    <style name="tv_bold" parent="@style/tv_common">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tv_btn_image" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_tr_white</item>
+        <item name="android:drawableRight">@drawable/btn_more_arrow_draw</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="tv_btn_image_fillet" parent="@style/tv_btn_image">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="tv_category" parent="@style/tv_common">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:drawableLeft">@drawable/btn_catalog_draw</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="tv_common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/txtsize_14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="tv_item_common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/txtsize_12</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="tv_item_left" parent="@style/tv_item_common">
+        <item name="android:layout_width">60dp</item>
+    </style>
+    <style name="tv_item_right" parent="@style/tv_item_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="tv_left" parent="@style/tv_common">
+        <item name="android:layout_width">95dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tv_link" parent="@style/tv_common">
+        <item name="android:textSize">@dimen/txtsize_16</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="tv_match" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="tv_ratingbar_num" parent="@style/tv_common">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/txtsize_10</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="tv_right" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tv_tab_content" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/bg_input_line</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="tv_tab_title" parent="@style/tv_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_gray_tit</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

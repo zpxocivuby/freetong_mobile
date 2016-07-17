@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_adapter_layout" >
+
+    <itaf.mobile.app.ui.widget.AsyncImageView
+        android:id="@+id/iv_mla_merchant_ico"
+        style="@style/aiv_96" />
+
+    <LinearLayout
+        style="@style/linear_common"
+        android:layout_toRightOf="@+id/iv_mla_merchant_ico" >
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_mla_company_name"
+                style="@style/tv_link" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="商家类型" />
+
+            <TextView
+                android:id="@+id/tv_mla_merchant_category"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="服务距离" />
+
+            <TextView
+                android:id="@+id/tv_mla_service_coverage"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <RatingBar
+                android:id="@+id/rb_mla_evaluation"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:isIndicator="true"
+                android:numStars="5" >
+            </RatingBar>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="地址" />
+
+            <TextView
+                android:id="@+id/tv_mla_company_address"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

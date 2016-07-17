@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_ac_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="申请服务列表" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <TextView
+            android:id="@+id/tv_ac_apply_selling_service"
+            style="@style/tv_btn_image"
+            android:text="申请售卖服务" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <TextView
+            android:id="@+id/tv_ac_apply_dist_service"
+            style="@style/tv_btn_image"
+            android:text="申请配送服务" />
+    </LinearLayout>
+
+</LinearLayout>

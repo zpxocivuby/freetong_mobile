@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/app_top_rela_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_im_send_msg" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_round_white"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <ImageView
+            android:id="@+id/iv_imh_user_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/str_iv_desc"
+            android:src="@drawable/im_user_head_ico_small" />
+
+        <LinearLayout
+            android:id="@+id/linear_imh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_imh_user_head"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_imh_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/txtsize_16" />
+
+            <TextView
+                android:id="@+id/tv_imh_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/txtsize_16" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_imh_my_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/tv_imh_send_message"
+            android:drawableTop="@drawable/im_user_head_ico"
+            android:text="@string/str_im_friends"
+            android:textSize="@dimen/txtsize_10" />
+
+        <TextView
+            android:id="@+id/tv_imh_send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableTop="@drawable/im_send_msg"
+            android:text="@string/str_im_send_msg"
+            android:textSize="@dimen/txtsize_10" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/pull_imh_lastest_chat_container"
+        style="@style/lv_common" />
+
+</LinearLayout>

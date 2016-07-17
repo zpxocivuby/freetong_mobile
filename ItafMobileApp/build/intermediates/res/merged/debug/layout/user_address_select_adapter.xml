@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_adapter_layout" >
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            style="@style/tv_left"
+            android:text="@string/str_uasa_contact_person" />
+
+        <TextView
+            android:id="@+id/tv_uasa_contact_person"
+            style="@style/tv_match" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            style="@style/tv_left"
+            android:text="@string/str_uasa_contact_no" />
+
+        <TextView
+            android:id="@+id/tv_uasa_contact_no"
+            style="@style/tv_match" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            style="@style/tv_left"
+            android:text="@string/str_uasa_address" />
+
+        <TextView
+            android:id="@+id/tv_uasa_address"
+            style="@style/tv_match" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            style="@style/tv_left"
+            android:text="@string/str_uasa_postcode" />
+
+        <TextView
+            android:id="@+id/tv_uasa_postcode"
+            style="@style/tv_match" />
+    </LinearLayout>
+
+</LinearLayout>

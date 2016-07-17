@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_oc_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="提交订单" />
+
+        <Button
+            android:id="@+id/btn_oc_create"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            style="@style/linear_padding8"
+            android:padding="0dp" >
+
+            <ExpandableListView
+                android:id="@+id/elv_oc_content"
+                style="@style/elv_common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="邮费" />
+
+                <TextView
+                    android:id="@+id/tv_oc_dist_price"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="总价" />
+
+                <TextView
+                    android:id="@+id/tv_oc_amount"
+                    style="@style/tv_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_padding8"
+                android:padding="0dp" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="收货地址" />
+
+                <TextView
+                    android:id="@+id/tv_oc_user_delivery_address"
+                    style="@style/tv_btn_image"
+                    android:text="选择收货地址" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_padding8"
+                android:padding="0dp" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="选择支付方式" />
+
+                <LinearLayout
+                    android:id="@+id/linear_oc_pay_type"
+                    style="@style/linear_padding8" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_padding8"
+                android:padding="0dp" >
+
+                <TextView
+                    style="@style/tv_tab_title"
+                    android:text="订单备注" />
+
+                <EditText
+                    android:id="@+id/et_oc_dist_desc"
+                    style="@style/et_bg_input"
+                    android:background="@drawable/bg_input_line"
+                    android:hint="请输入"
+                    android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

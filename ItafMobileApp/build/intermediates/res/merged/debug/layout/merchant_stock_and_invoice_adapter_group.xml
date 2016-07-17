@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group" >
+
+    <TextView
+        android:id="@+id/tv_msaiag_serial_no"
+        style="@style/tv_left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_msaiag_amount"
+        style="@style/tv_left"
+        android:layout_centerInParent="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_msaiag_invoice"
+        style="@style/btn_bg_red"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="发货" />
+
+</RelativeLayout>

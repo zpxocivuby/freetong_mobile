@@ -8,7 +8,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="16" android:maxSdkVersion="23" />
 
     <!-- 允许访问振动设备 -->
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -86,7 +86,7 @@
         android:name="itaf.mobile.core.app.AppApplication"
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/str_am_app_name" >
+        android:label="@string/str_am_app_name" tools:replace="android:label" >
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="7wwS3TTyVHIiWzydVHeOevQF" />

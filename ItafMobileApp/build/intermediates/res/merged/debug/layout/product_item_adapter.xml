@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_adapter_layout" >
+
+    <itaf.mobile.app.ui.widget.AsyncImageView
+        android:id="@+id/iv_msa_product_ico"
+        style="@style/aiv_96" />
+
+    <LinearLayout
+        style="@style/linear_common"
+        android:layout_toRightOf="@+id/iv_msa_product_ico" >
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_msa_product_name"
+                style="@style/tv_link" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="商家名称" />
+
+            <TextView
+                android:id="@+id/tv_msa_merchant_name"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="剩余数量" />
+
+            <TextView
+                android:id="@+id/tv_msa_shelf_num"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_msa_price"
+                style="@style/tv_item_left" />
+
+            <TextView
+                android:id="@+id/tv_msa_dist_range"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

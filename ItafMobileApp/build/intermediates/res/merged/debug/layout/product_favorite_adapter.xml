@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group_item" >
+
+    <itaf.mobile.app.ui.widget.AsyncImageView
+        android:id="@+id/aiv_pfa_product_ico"
+        style="@style/aiv_96" />
+
+    <LinearLayout
+        style="@style/linear_padding8"
+        android:layout_toRightOf="@+id/aiv_pfa_product_ico"
+        android:padding="0dp" >
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_pfa_product_name"
+                style="@style/tv_item_left"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="商家" />
+
+            <TextView
+                android:id="@+id/tv_pfa_merchant_name"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="剩余" />
+
+            <TextView
+                android:id="@+id/tv_pfa_shelf_num"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="价格" />
+
+            <TextView
+                android:id="@+id/tv_pfa_price"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="距离" />
+
+            <TextView
+                android:id="@+id/tv_pfa_dist_range"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

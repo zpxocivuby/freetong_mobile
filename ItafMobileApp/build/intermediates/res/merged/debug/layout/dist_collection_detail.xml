@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_dcd_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_dcd_top_title" />
+
+        <Button
+            android:id="@+id/btn_dcd_confirm"
+            style="@style/app_top_btn_right"
+            android:text="收款" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="@string/str_dcd_receivable_amount" />
+
+            <TextView
+                android:id="@+id/tv_dcd_receivable_amount"
+                style="@style/tv_match" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="@string/str_dcd_actual_amount" />
+
+            <EditText
+                android:id="@+id/et_dcd_actual_amount"
+                style="@style/et_bg_input"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/elv_dcd_content"
+        style="@style/elv_common" />
+
+</LinearLayout>

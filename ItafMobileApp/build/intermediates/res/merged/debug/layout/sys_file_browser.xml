@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_sufb_layout"
+        style="@style/linear_layout"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout style="@style/app_top_rela_bg" >
+
+            <Button
+                android:id="@+id/btn_sufb_back"
+                style="@style/app_top_btn_back" />
+
+            <TextView
+                style="@style/app_top_tv_title"
+                android:text="@string/str_common_file_browser" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_sufb_uploadfile"
+            style="@style/lv_common" />
+    </LinearLayout>
+
+</LinearLayout>

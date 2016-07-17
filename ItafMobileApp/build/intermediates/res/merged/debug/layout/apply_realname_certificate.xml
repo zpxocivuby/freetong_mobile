@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_arc_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="申请实名认证" />
+
+        <Button
+            android:id="@+id/btn_arc_submit_apply"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_submit" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_arc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_padding8" >
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="真实姓名" />
+
+                <EditText
+                    android:id="@+id/et_arc_relname"
+                    style="@style/et_bg_input"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="性别" />
+
+                <RadioGroup style="@style/rg_group" >
+
+                    <RadioButton
+                        android:id="@+id/rb_arc_sex_male"
+                        style="@style/rb_radio_left"
+                        android:text="男" />
+
+                    <RadioButton
+                        android:id="@+id/rb_arc_sex_female"
+                        style="@style/rb_radio_right"
+                        android:text="女" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="出生日期" />
+
+                <TextView
+                    android:id="@+id/tv_arc_birthday"
+                    style="@style/tv_bg_input" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="手机号码" />
+
+                <EditText
+                    android:id="@+id/et_arc_mobile"
+                    style="@style/et_bg_input" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="证件类型" />
+
+                <TextView
+                    android:id="@+id/tv_arc_id_type"
+                    style="@style/tv_bg_select" />
+
+                <TextView
+                    android:id="@+id/tv_arc_id_type_value"
+                    style="@style/tv_bg_select"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="证件号码" />
+
+                <EditText
+                    android:id="@+id/et_arc_id_no"
+                    style="@style/et_bg_input"  />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="证件附件" />
+
+                <Button
+                    android:id="@+id/btn_arc_attach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_bg_red_fillet_draw"
+                    android:gravity="center"
+                    android:text="@string/str_common_upload" />
+
+                <TextView
+                    android:id="@+id/tv_arc_attach_name"
+                    style="@style/tv_link" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_md_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_md_top_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rela_md_bottom" >
+
+            <LinearLayout style="@style/linear_padding8" >
+
+                <itaf.mobile.app.ui.widget.AsyncImageView
+                    android:id="@+id/aiv_md_merchant_ico"
+                    style="@style/aiv_96" />
+
+                <LinearLayout style="@style/linear_common" >
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="@string/str_md_category" />
+
+                        <TextView
+                            android:id="@+id/tv_md_category"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="@string/str_md_credit" />
+
+                        <RatingBar
+                            android:id="@+id/rb_md_credit"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:isIndicator="true"
+                            android:numStars="5" >
+                        </RatingBar>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="@string/str_md_dist_range" />
+
+                        <TextView
+                            android:id="@+id/tv_md_dist_range"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_left_right" >
+
+                        <TextView
+                            style="@style/tv_left"
+                            android:text="@string/str_md_address" />
+
+                        <TextView
+                            android:id="@+id/tv_md_dist_address"
+                            style="@style/tv_right" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/rela_md_bottom"
+            style="@style/rela_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/detail_background" >
+
+            <TextView
+                android:id="@+id/tv_md_favorite"
+                style="@style/tv_link"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/btp_collect"
+                android:text="@string/str_md_favorite" />
+
+            <TextView
+                android:id="@+id/tv_md_hot_product"
+                style="@style/tv_link"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_md_hot_product" />
+
+            <TextView
+                android:id="@+id/tv_md_chat"
+                style="@style/tv_link"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_md_chat" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

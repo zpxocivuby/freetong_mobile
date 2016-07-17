@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_pe_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_pe_top_title" />
+
+        <Button
+            android:id="@+id/btn_pe_save"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_padding8" >
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="@string/str_pe_product_category" />
+
+                <TextView
+                    android:id="@+id/tv_pe_product_category"
+                    style="@style/tv_bg_select" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="@string/str_pe_product_name" />
+
+                <EditText
+                    android:id="@+id/et_pe_product_name"
+                    style="@style/et_bg_input"
+                    android:focusable="true"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="@string/str_pe_stock_num" />
+
+                <EditText
+                    android:id="@+id/et_pe_stock_num"
+                    style="@style/et_bg_input"
+                    android:focusable="true"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="@string/str_pe_price" />
+
+                <EditText
+                    android:id="@+id/et_pe_price"
+                    style="@style/et_bg_input"
+                    android:focusable="true"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="@string/str_pe_description" />
+
+                <EditText
+                    android:id="@+id/et_pe_description"
+                    style="@style/et_bg_textarea"
+                    android:focusable="true"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="商品图片" />
+
+                <Button
+                    android:id="@+id/btn_pe_upload"
+                    style="@style/btn_bg_red"
+                    android:text="@string/str_common_upload" />
+                <TextView
+                    android:id="@+id/tv_pe_attach_name"
+                    style="@style/tv_link" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

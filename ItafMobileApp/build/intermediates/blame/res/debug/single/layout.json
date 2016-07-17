@@ -1,0 +1,578 @@
+[
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_collection_list_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_collection_list_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_dist_statement.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_dist_statement.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_dist_certificate_result.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_dist_certificate_result.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_realname_certificate.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_realname_certificate.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_create.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address_create.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileDs\\unspecified\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_item_merchant_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_item_merchant_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_collection_detail_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_collection_detail_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_account_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_account_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_map.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_map.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_selling_certificate.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_selling_certificate.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_realname_certificate_check.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_realname_certificate_check.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_list_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_list_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_create_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_create_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_delivery_address_edit.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_delivery_address_edit.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_clip_photo.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_clip_photo.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_side.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_side.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_invoice_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_invoice_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\app_main.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\app_main.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_list_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_list_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_collection_list_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_collection_list_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_refund_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_refund_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_cart_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_cart_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_stock_and_invoice.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_stock_and_invoice.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\search_merchant_result.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\search_merchant_result.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\pop_category_right_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\pop_category_right_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_file_browser_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_file_browser_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_manage.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_manage.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\search_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\search_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_pay_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_pay_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\app_start.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\app_start.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_receipt.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_receipt.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_login.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_login.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_room_window.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_room_window.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_window.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_window.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_stock_order_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_stock_order_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_member_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_member_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_setting.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_setting.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_im.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_im.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_dist_statement_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_dist_statement_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_select.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address_select.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_evaluation.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_evaluation.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\pop_category.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\pop_category.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_pay.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_pay.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_create.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_create.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_invoice_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_invoice_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_dist_certificate.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_dist_certificate.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_selling_certificate_check.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_selling_certificate_check.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_edit.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_edit.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_friends.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_friends.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\pop_category_left_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\pop_category_left_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_delivery.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_delivery.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_stock_order.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_stock_order.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_invoice.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_invoice.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_favorite.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_favorite.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_photo_preview.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_photo_preview.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_select_dist_list.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_select_dist_list.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_dist_statement_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_dist_statement_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_delivery_address.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_delivery_address.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_collection_detail_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_collection_detail_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_evaluation.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_evaluation.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_add_friend_dialog.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_add_friend_dialog.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_item_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_item_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_create_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_create_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\app_toast.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\app_toast.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_dist_statement_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_dist_statement_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_delivery_address_create.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_delivery_address_create.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_selling_certificate_result.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_selling_certificate_result.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_statement_item_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_statement_item_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_confirm_receipt_list.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_confirm_receipt_list.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_dist_statement_item_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_dist_statement_item_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_stock_and_invoice_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_stock_and_invoice_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_order_list_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_order_list_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_pay_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_pay_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_order_list_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_order_list_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_order_list.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_order_list.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\search_product_result.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\search_product_result.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_select_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address_select_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_realname_certificate_result.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_realname_certificate_result.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_create_pay_type_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_create_pay_type_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_create.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_create.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_certificate.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_certificate.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_favorite_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_favorite_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_cart_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_cart_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_process_refund_order.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_process_refund_order.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_delivery_address_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_delivery_address_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_category_select.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_category_select.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_delivery_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_delivery_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_refund.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_refund.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_home.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_home.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_delivery_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_delivery_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_stock_order_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_stock_order_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_statement_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_statement_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_order_map.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_order_map.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_alipay.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_alipay.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_receipt_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_receipt_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\search_product_or_merchant.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\search_product_or_merchant.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\apply_dist_certificate_check.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\apply_dist_certificate_check.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_select_dist_map.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_select_dist_map.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_refund_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_refund_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_receipt_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_receipt_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_collection_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_collection_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_process_refund_order_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_process_refund_order_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_statement.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_statement.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_stock_and_invoice_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_stock_and_invoice_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_protocol.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_protocol.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_cart.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_cart.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_myfriends_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_myfriends_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_list.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_list.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_about.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_about.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_history_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_history_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_register.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_register.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\app_progress.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\app_progress.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_lastest_chat_record_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_lastest_chat_record_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_delivery_address_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_delivery_address_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_statement_wait_pay.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_statement_wait_pay.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_evaluation_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_evaluation_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_favorite_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_favorite_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_merchant_detail.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_merchant_detail.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_favorite.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_favorite.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\dist_collection_list.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\dist_collection_list.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\user_address_edit.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\user_address_edit.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\im_chat_history.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\im_chat_history.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\menu_account.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\menu_account.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_category_select_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_category_select_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_select_dist_list_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_select_dist_list_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_evaluation_adapter_group_item.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_evaluation_adapter_group_item.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_detail_product_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_detail_product_adapter.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\product_on_shelf.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\product_on_shelf.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_wait_evaluation_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_wait_evaluation_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\sys_file_browser.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\sys_file_browser.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\pop_common.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\pop_common.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\order_list_adapter_group.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\order_list_adapter_group.xml"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\layout\\merchant_dist_statement_detail_adapter.xml",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\layout\\merchant_dist_statement_detail_adapter.xml"
+    }
+]

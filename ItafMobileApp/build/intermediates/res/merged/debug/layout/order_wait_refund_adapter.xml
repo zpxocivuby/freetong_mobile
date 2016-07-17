@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_adapter_layout" >
+
+    <RelativeLayout style="@style/rela_content" >
+
+        <TextView
+            android:id="@+id/tv_owrefa_serial_no"
+            style="@style/tv_left"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_owrefa_cancel"
+            style="@style/btn_bg_red"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="取消" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            android:id="@+id/tv_owrefa_username"
+            style="@style/tv_left"
+            android:text="客户名称" />
+
+        <TextView
+            android:id="@+id/tv_owrefa_create_time"
+            style="@style/tv_right"
+            android:text="创建时间" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            style="@style/tv_left"
+            android:text="退款订单号" />
+
+        <TextView
+            android:id="@+id/tv_owrefa_order_serial_no"
+            style="@style/tv_right" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_left_right" >
+
+        <TextView
+            style="@style/tv_left"
+            android:text="退款金额" />
+
+        <TextView
+            android:id="@+id/tv_owrefa_refund_amount"
+            style="@style/tv_right" />
+    </LinearLayout>
+
+</LinearLayout>

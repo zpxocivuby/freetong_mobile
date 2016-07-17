@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background" >
+
+    <RelativeLayout
+        android:id="@+id/rela_dc_top"
+        style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_dc_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="用户确认收货列表" />
+
+        <Button
+            android:id="@+id/btn_dc_save"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rela_dc_top"
+        android:background="@drawable/bg_round_white"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="用户确认收货列表" />
+
+            <TextView
+                android:id="@+id/et_dc_contactPerson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="100"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txtsize_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="用户确认收货列表" />
+
+            <EditText
+                android:id="@+id/et_dc_actual_amount"
+                style="@style/et_bg_input"
+                android:focusable="true"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

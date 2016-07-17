@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_mh_top_title" />
+
+        <ImageView
+            android:id="@+id/iv_mh_search"
+            style="@style/iv_top_right_search"
+            android:contentDescription="@string/str_iv_desc" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_mh_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linear_mh_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </RelativeLayout>
+            </FrameLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tab_bar"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <RadioButton
+                    android:id="@+id/radio_menu_home"
+                    style="@style/rb_menu_btn"
+                    android:drawableTop="@drawable/home_tehui"
+                    android:text="特惠专区" />
+
+                <RadioButton
+                    android:id="@+id/radio_menu_side"
+                    style="@style/rb_menu_btn"
+                    android:drawableTop="@drawable/home_yifu"
+                    android:text="服装专区" />
+
+                <RadioButton
+                    android:id="@+id/radio_menu_im"
+                    style="@style/rb_menu_btn"
+                    android:drawableTop="@drawable/home_muying"
+                    android:text="母婴专区" />
+
+                <RadioButton
+                    android:id="@+id/radio_menu_account"
+                    style="@style/rb_menu_btn"
+                    android:drawableTop="@drawable/home_shuma"
+                    android:text="科技专区" />
+            </RadioGroup>
+
+            <LinearLayout style="@style/linear_padding8" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/btp_home_1f_banner"
+                    android:contentDescription="@string/str_iv_desc" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/btp_home_2f_banner"
+                    android:contentDescription="@string/str_iv_desc" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/btp_home_3f_banner"
+                    android:contentDescription="@string/str_iv_desc" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/home_ppt"
+                    android:contentDescription="@string/str_iv_desc" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

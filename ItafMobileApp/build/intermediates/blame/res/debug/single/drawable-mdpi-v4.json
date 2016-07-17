@@ -1,0 +1,506 @@
+[
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_title_ico.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_title_ico.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_tel_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_tel_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_search_white_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_search_white_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_tel.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_tel.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_select_people.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_select_people.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_account.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_account.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_account_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_account_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_msg.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_msg.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_ico.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\app_ico.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_msj_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_msj_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_user_head_ico_big.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_user_head_ico_big.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_round_black.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_round_black.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_deliver_goods.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_deliver_goods.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_cart.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_cart.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_collect.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_collect.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\progress_loader.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\progress_loader.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_cart_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_cart_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tab_left_red_on.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\tab_left_red_on.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_tool_bar.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_tool_bar.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_red.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btn_red.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_subtract_sign.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_subtract_sign.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tab_left_red.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\tab_left_red.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_icon_en.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_icon_en.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_tr_gray.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_tr_gray.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_from.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_from.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_spcart.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_spcart.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\home_shuma.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\home_shuma.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_popup.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_popup.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_user_head_ico.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_user_head_ico.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_msg_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_msg_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_icon_st.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_icon_st.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_department_ico.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_department_ico.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_delect_press.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_delect_press.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_side.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_side.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\form_checkbox.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\form_checkbox.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_more_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_more_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_top_hd.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_top_hd.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_chat_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_chat_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_ground_overlay.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_ground_overlay.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\home_tehui.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\home_tehui.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_search_red_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_search_red_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_home_1f_banner.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_home_1f_banner.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_black_press.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btn_black_press.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_more_arrow_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_more_arrow_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_popup_down.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_popup_down.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_search_input.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_search_input.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_refund.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_refund.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\form_radio.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\form_radio.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_round_white.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_round_white.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_icon_gcoding.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_icon_gcoding.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_pending_payment.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_pending_payment.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_home_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_home_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_welcome.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\app_welcome.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_spcart_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_spcart_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pull_indicator_arrow.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\pull_indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_input_line.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_input_line.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_clear_input_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_clear_input_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\file_doc.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\file_doc.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tab_right_red_on.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\tab_right_red_on.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_more.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_more.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_evaluation.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_evaluation.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_map_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_map_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\map_icon_geo.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\map_icon_geo.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_point.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_point.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\home_muying.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\home_muying.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_delect.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_delect.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_contact.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_contact.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_to.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_to.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tab_right_red.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\tab_right_red.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_goods_receipt.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_goods_receipt.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_list_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_list_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_chatroom_ico.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_chatroom_ico.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_side_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_side_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_back.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_back.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_totalline2.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_totalline2.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_tr_white.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_tr_white.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_collect_press.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_collect_press.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_point_on.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_point_on.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_home_2f_banner.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_home_2f_banner.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_more_arrow.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_more_arrow.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_im.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_im.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_send_msg.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_send_msg.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popup_black_bottom.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\popup_black_bottom.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_subtract_sign_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_subtract_sign_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_gray_tit.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_gray_tit.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\async_loader.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\async_loader.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_catalog_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_catalog_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\home_ppt.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\home_ppt.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_fillet_red_press.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btn_fillet_red_press.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileDs\\unspecified\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pull_default_ptr_rotate.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\pull_default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\home_yifu.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\home_yifu.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_input.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_input.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_clear_input.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_clear_input.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_user_head_ico_small.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_user_head_ico_small.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_select_people_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_select_people_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_add_sign_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_add_sign_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_search_red.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_search_red.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\im_select_type.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\im_select_type.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_add_sign.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_add_sign.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_fillet_red.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btn_fillet_red.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_search_white.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_search_white.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_totalline.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_totalline.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_chat.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_chat.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_map.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_map.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_list.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_list.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_add.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_add.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_tab_bar.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_tab_bar.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_black.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btn_black.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_tr_white_content.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_tr_white_content.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_catalog.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_catalog.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\file_folder.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\file_folder.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_add_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_add_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_back_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_back_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_search_green_press.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_search_green_press.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_contact_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_contact_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_select.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\bg_select.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popup_black_top.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\popup_black_top.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_search_green.jpg",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_search_green.jpg"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_red_press.9.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btn_red_press.9.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_home_3f_banner.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_home_3f_banner.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_home.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_home.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\menu_im_press.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\menu_im_press.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btp_msj.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\btp_msj.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\form_checkbox_on.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\form_checkbox_on.gif"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\form_radio_on.gif",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-mdpi\\form_radio_on.gif"
+    }
+]

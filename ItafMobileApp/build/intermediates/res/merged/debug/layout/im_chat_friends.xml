@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_icf_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="@string/str_im_friends_list" />
+
+        <Button
+            android:id="@+id/btn_icf_add"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_add" />
+
+        <Button
+            android:id="@+id/btn_icf_select_friend"
+            style="@style/btn_bg_black"
+            android:text="@string/str_common_complete" />
+    </RelativeLayout>
+
+    <itaf.mobile.app.third.pull.PullToRefreshListView
+        android:id="@+id/lv_icf_my_friend_list"
+        style="@style/lv_common" />
+
+</LinearLayout>

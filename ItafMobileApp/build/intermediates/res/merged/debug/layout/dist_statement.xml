@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_ds_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="结算单" />
+
+        <Button
+            android:id="@+id/btn_ds_detail"
+            style="@style/app_top_btn_right"
+            android:text="结算详情" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                android:id="@+id/tv_ds_dist_company_name"
+                style="@style/tv_match"
+                android:text="配送商名称" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="结算完结总额" />
+
+            <TextView
+                android:id="@+id/tv_ds_processed_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="未发起结算应收总额" />
+
+            <TextView
+                android:id="@+id/tv_ds_unprocessed_receivable_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="未发起结算应退总额" />
+
+            <TextView
+                android:id="@+id/tv_ds_unprocessed_refund_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="已发起结算应收总额" />
+
+            <TextView
+                android:id="@+id/tv_ds_processing_receivable_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_left_right" >
+
+            <TextView
+                style="@style/tv_left"
+                android:text="已发起结算应退总额" />
+
+            <TextView
+                android:id="@+id/tv_ds_processing_refund_amount"
+                style="@style/tv_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

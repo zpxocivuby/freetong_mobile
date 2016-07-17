@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_adc_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="申请配送服务" />
+
+        <Button
+            android:id="@+id/btn_adc_submit_apply"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_submit" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_adc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_padding8" >
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="公司名称" />
+
+                <EditText
+                    android:id="@+id/et_adc_company_name"
+                    style="@style/et_bg_input"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="服务类型" />
+
+                <TextView
+                    android:id="@+id/tv_adc_service_type"
+                    style="@style/tv_bg_select" />
+
+                <TextView
+                    android:id="@+id/tv_adc_service_type_value"
+                    style="@style/tv_bg_select"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="服务范围" />
+
+                <TextView
+                    android:id="@+id/tv_adc_service_coverage"
+                    style="@style/tv_bg_select" />
+
+                <TextView
+                    android:id="@+id/tv_adc_service_coverage_value"
+                    style="@style/tv_bg_select"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="公司地址" />
+
+                <EditText
+                    android:id="@+id/et_adc_company_address"
+                    style="@style/et_bg_input"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="配送资质" />
+
+                <Button
+                    android:id="@+id/btn_adc_attach"
+                    style="@style/btn_bg_red_fillet"
+                    android:text="@string/str_common_upload" />
+
+                <TextView
+                    android:id="@+id/tv_adc_attach_name"
+                    style="@style/tv_link" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

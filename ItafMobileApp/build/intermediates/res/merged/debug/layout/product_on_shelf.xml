@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_pos_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="商品上架" />
+
+        <Button
+            android:id="@+id/id_pos_confirm"
+            style="@style/app_top_btn_right"
+            android:text="@string/str_common_save" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp" >
+
+        <LinearLayout style="@style/linear_box" >
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="商品名称" />
+
+                <TextView
+                    android:id="@+id/tv_pos_product_name"
+                    style="@style/tv_match" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="库存数量" />
+
+                <TextView
+                    android:id="@+id/tv_pos_stock_num"
+                    style="@style/tv_match" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="上架数量" />
+
+                <EditText
+                    android:id="@+id/et_pos_on_shelf_num"
+                    style="@style/et_input_number" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

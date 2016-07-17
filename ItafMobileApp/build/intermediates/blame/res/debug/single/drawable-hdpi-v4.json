@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pull_default_ptr_rotate.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-hdpi\\pull_default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pull_indicator_arrow.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-hdpi\\pull_indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\github\\freetong\\freetong_mobile\\ItafMobileApp\\res\\drawable-hdpi\\default_ptr_flip.png"
+    }
+]

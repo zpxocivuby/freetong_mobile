@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_adapter_layout" >
+
+    <itaf.mobile.app.ui.widget.AsyncImageView
+        android:id="@+id/iv_pima_product_ico"
+        style="@style/aiv_96" />
+
+    <LinearLayout
+        style="@style/linear_common"
+        android:layout_toRightOf="@+id/iv_pima_product_ico" >
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                android:id="@+id/tv_pima_product_name"
+                style="@style/tv_link" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="货品分类" />
+
+            <TextView
+                android:id="@+id/tv_pima_category"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="单价" />
+
+            <TextView
+                android:id="@+id/tv_pima_price"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="库存数量" />
+
+            <TextView
+                android:id="@+id/tv_pima_stock_num"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_padding1" >
+
+            <TextView
+                style="@style/tv_item_left"
+                android:text="上架数量" />
+
+            <TextView
+                android:id="@+id/tv_pima_shelf_num"
+                style="@style/tv_item_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

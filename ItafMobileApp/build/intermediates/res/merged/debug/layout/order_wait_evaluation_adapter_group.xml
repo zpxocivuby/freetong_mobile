@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/rela_group" >
+
+    <TextView
+        android:id="@+id/tv_oweag_serial_no"
+        style="@style/tv_left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_oweag_amount"
+        style="@style/tv_left"
+        android:layout_centerInParent="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_oweag_refund"
+        style="@style/btn_bg_red"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn_oweag_evaluation"
+        android:text="退货" />
+
+    <Button
+        android:id="@+id/btn_oweag_evaluation"
+        style="@style/btn_bg_red"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:text="评价" />
+
+</RelativeLayout>

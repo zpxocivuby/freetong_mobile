@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_adapter_layout" >
+
+    <RelativeLayout style="@style/rela_layout" >
+
+        <itaf.mobile.app.ui.widget.AsyncImageView
+            android:id="@+id/aiv_oea_product_ico"
+            style="@style/aiv_96" />
+
+        <LinearLayout
+            style="@style/linear_padding8"
+            android:layout_toRightOf="@+id/aiv_oea_product_ico" >
+
+            <LinearLayout style="@style/linear_padding1" >
+
+                <TextView
+                    android:id="@+id/tv_oea_product_id"
+                    style="@style/tv_left"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_oea_product_name"
+                    style="@style/tv_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txtsize_12" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_padding1" >
+
+                <RatingBar
+                    android:id="@+id/rb_oea_product_evaluate_score"
+                    style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:rating="0.0"
+                    android:stepSize="1" >
+                </RatingBar>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout style="@style/linear_padding8" >
+
+        <EditText
+            android:id="@+id/et_oea_evaluate_content"
+            style="@style/et_bg_textarea" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout" >
+
+    <RelativeLayout style="@style/app_top_rela_bg" >
+
+        <Button
+            android:id="@+id/btn_uad_back"
+            style="@style/app_top_btn_back" />
+
+        <TextView
+            style="@style/app_top_tv_title"
+            android:text="用户账号信息" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/rela_content"
+        android:background="@drawable/bg_tab_bar" >
+
+        <itaf.mobile.app.ui.widget.AsyncImageView
+            android:id="@+id/aiv_uad_user_ico"
+            style="@style/aiv_64"
+            android:src="@drawable/im_user_head_ico_big" />
+
+        <TextView
+            style="@style/tv_bold"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/tv_uad_balance"
+            android:text="@string/str_ma_balance" />
+
+        <TextView
+            android:id="@+id/tv_uad_balance"
+            style="@style/tv_bold"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout style="@style/linear_padding8" >
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="真实姓名" />
+
+                <TextView
+                    android:id="@+id/tv_uad_relname"
+                    style="@style/tv_match"
+                    android:text="未认证" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="邮件地址" />
+
+                <TextView
+                    android:id="@+id/tv_uad_email"
+                    style="@style/tv_match" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="用户昵称" />
+
+                <TextView
+                    android:id="@+id/tv_uad_nickname"
+                    style="@style/tv_match" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/linear_left_right" >
+
+                <TextView
+                    style="@style/tv_left"
+                    android:text="手机号码" />
+
+                <TextView
+                    android:id="@+id/tv_uad_mobile"
+                    style="@style/tv_match" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

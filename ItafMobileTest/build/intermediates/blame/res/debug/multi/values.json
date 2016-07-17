@@ -1,0 +1,125 @@
+[
+    {
+        "outputFile": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 51,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 52,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileCore\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 52,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 50,
+                    "endOffset": 206
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileCore\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 50,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 211,
+                    "endColumn": 60,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileDto\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 60,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 272,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 558
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileDto\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 563,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 718
+                },
+                "from": {
+                    "file": "D:\\github\\freetong\\freetong_mobile\\ItafMobileTest\\build\\intermediates\\exploded-aar\\freetong_mobile\\ItafMobileDto\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 613
+                    }
+                }
+            }
+        ]
+    }
+]
