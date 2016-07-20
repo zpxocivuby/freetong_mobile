@@ -226,6 +226,7 @@ public class ApplyRealnameCertificate extends BaseUIActivity implements
 				intent.setType("image/*");
 				intent.setAction(Intent.ACTION_GET_CONTENT);
 				startActivityForResult(intent, AppConstants.RC_ANDROID_PHOTO);
+				System.out.println(intent);
 			}
 		});
 		tv_arc_attach_name = (TextView) this
@@ -305,7 +306,9 @@ public class ApplyRealnameCertificate extends BaseUIActivity implements
 			switch (requestCode) {
 			case AppConstants.RC_ANDROID_PHOTO:
 				Uri selectedImage = intent.getData();
-				currFilePath = getImagePathFromAndroid(selectedImage);
+				//modify by xiaoly for4.4.2 change method for getImagePathFromUri4kitkat
+				//currFilePath = getImagePathFromAndroid(selectedImage);
+				currFilePath = getImagePathFromUri4kitkat(this,selectedImage);
 				tv_arc_attach_name.setText(FileHelper
 						.getSrcFileName(currFilePath));
 				break;

@@ -1,7 +1,10 @@
 package itaf.mobile.app.ui.base;
 
 import itaf.mobile.app.ui.custom.AppProgressDialog;
+import itaf.mobile.app.util.GetpathFromURI4kitkat;
+import itaf.mobile.core.app.AppActivityManager;
 import itaf.mobile.core.app.AppApplication;
+import itaf.mobile.core.app.AppServiceManager;
 import itaf.mobile.core.base.BaseActivity;
 import itaf.mobile.core.constant.AppConstants;
 import itaf.mobile.core.utils.DateUtil;
@@ -18,15 +21,18 @@ import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.TimePickerDialog;
 import android.app.TimePickerDialog.OnTimeSetListener;
 import android.content.Context;
+import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.ListAdapter;
@@ -46,7 +52,14 @@ public class BaseUIActivity extends BaseActivity {
 	public static final String PD_LOGINING = "正在登录...";
 	// 模态窗口
 	private AppProgressDialog progressDialog;
-
+	private GetpathFromURI4kitkat fromURI4kitkat;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		fromURI4kitkat = new GetpathFromURI4kitkat();
+	}
+	
 	protected void showProgressDialog(String msg) {
 		if (progressDialog == null) {
 			progressDialog = new AppProgressDialog(this);
@@ -73,6 +86,9 @@ public class BaseUIActivity extends BaseActivity {
 		String result = cursor.getString(columnIndex);
 		cursor.close();
 		return result;
+	}
+	protected String getImagePathFromUri4kitkat(final Context context,Uri selectedImage){
+		return fromURI4kitkat.getPath(context, selectedImage);
 	}
 
 	// 获取窗口的宽度
